@@ -1,3 +1,7 @@
+STACK SEGMENT PARA STACK
+   DB 64 DUP (' ')
+STACK ENDS
+
 DATA SEGMENT 
 	MSG DB  "Hello, World!", "$"; DB: DEFINE BYTE
 								; $: terminates the string
@@ -12,13 +16,16 @@ CODE SEGMENT
       int 10h
       
       mov ah,0ch
-      mov cx,160
-      mov dx,100
       mov al,4
+      mov bh,00h
+      mov ah,0ch
+      mov cx,160
+      mov dx,120
+      
       int 10h
 
 	STOP:
 		MOV AX, 4C00H
-		INT 21H 
+		INT 10H 
 CODE ENDS 
 	END START
