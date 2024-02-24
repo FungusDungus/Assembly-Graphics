@@ -11,7 +11,7 @@ How to setup your workspace:
 
 4. At the very bottom add under [autoexec] the following
    
-   mount c "YOURPATH"
+   mount c "YOUR_PATH_TO_THE_REPOSITORY"
    
    c:
    
