@@ -17,4 +17,4 @@ How to setup your workspace:
    
    set PATH=%PATH%;C:\8086\
   
-5. Use buildrun batch script to compile, link, and run the code
+5. Use build batch script to compile and link
