@@ -35,7 +35,7 @@ main proc
       
       ; video memory begins at 0a000h
       mov ax, 0a000h
-      mov es, ax ; move to segment register, video memory fits into a single paragraph
+      mov es, ax ; move video memory offset to segment register, memory for 320x200 video mode fits into a single segment
       
       ; tests
       mov bx, 0
@@ -57,7 +57,7 @@ main proc
       inc cx
       jb l1
       ; end tests
-      
+         
       ; exit on keystroke
       done:
       mov ah,1
