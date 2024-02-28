@@ -38,17 +38,14 @@ main proc
       mov es, ax ; move video memory offset to segment register, memory for 320x200 video mode fits into a single segment
       
       ; tests
+      mov si, 1
+      new:
       mov bx, 0
       mov cx, 0
-      mov si, 1
+      
       
       l1:
       call vram_modify
-      inc si
-      cmp si, 256
-      jbe cont
-      mov si,1
-      cont:
       cmp bx, 320
       inc bx
       jb l1
@@ -56,6 +53,11 @@ main proc
       cmp cx, 200
       inc cx
       jb l1
+      inc si
+      cmp si, 256
+      jbe new
+      mov si,1
+      jmp new
       ; end tests
          
       ; exit on keystroke
