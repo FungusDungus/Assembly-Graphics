@@ -2,6 +2,7 @@
 .stack 4096
 .data
 .code
+
 ; for convenience:
 ; x, y, color
 m_vram macro x, y, color
@@ -10,9 +11,6 @@ mov cx, y
 mov si, color
 call vram_modify
 endm
-
-
-
 
 ; bx: x pos
 ; cx: y pos
@@ -37,11 +35,13 @@ main proc
       mov ax, 0a000h
       mov es, ax ; move video memory offset to segment register, memory for 320x200 video mode fits into a single segment
       
-      ; tests
-      mov si, 1
-      new:
-      mov bx, 0
-      mov cx, 0
+      
+      
+    ; tests
+     mov si, 1
+     new:
+     mov bx, 0
+     mov cx, 0
       
       
       l1:
@@ -58,7 +58,7 @@ main proc
       jbe new
       mov si,1
       jmp new
-      ; end tests
+    ; end tests
          
       ; exit on keystroke
       done:
