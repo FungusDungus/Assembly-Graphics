@@ -26,6 +26,13 @@ vram_modify proc
    ret
 vram_modify endp
 
+SETREG  macro   P1, P2
+        mov     dx,P1
+        mov     ah,al
+        mov     al,P2
+        out     dx,ax
+        endm
+
 main proc
       mov ah, 0   ; video mode
       mov al, 13h ; mode
@@ -34,6 +41,10 @@ main proc
       ; video memory begins at 0a000h
       mov ax, 0a000h
       mov es, ax ; move video memory offset to segment register, memory for 320x200 video mode fits into a single segment
+      mov bx, 0x7D0
+      mov ax, 0
+      mov ax,bl
+      out 
       
       
       
