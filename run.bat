@@ -1,2 +1,3 @@
 cd Code
 main
+cd ..
