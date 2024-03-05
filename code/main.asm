@@ -34,7 +34,8 @@ toggle_page proc
    push ax
    push dx
    push cx
-   cmp CurrentPageOffset, 0a000h
+   mov ax, [CurrentPageOffset]
+   cmp ax, 0a000h
    je DispPage0
    DispPage1:
    mov cx, 3e80h
@@ -42,6 +43,8 @@ toggle_page proc
    DispPage0:
    xor cx, cx
    PerformDisp:
+   
+   xor ax, ax
    
    mov dx, 3d4h
       
@@ -78,55 +81,44 @@ main proc
    ; preload first page
    ; make this a procedure
    
-   push ax
-   mov ax, CurrentPageOffset
-   cmp ax, 0a000h
-   je SetPage1
-   SetPage0:
-   add ax, -64000
-   jmp SetBase
-   SetPage1:
-   add ax, 64000
-   SetBase:
-   mov CurrentPageOffset, ax
-   
    mov ax, 0a000h
    mov es,ax
    
-   mov bx, 0 ; 0 index 0 - 319
-   mov cx, 0 ; 0 indexed, 0 - 199
-   mov ax, 320
-   mul cx
-   add bx, ax
-   mov ax,50
-   mov es:[bx], ax
+   ; push ax
+   ; mov ax, [CurrentPageOffset]
+   ; cmp ax, 0a000h
+   ; je SetPage1
+   ; SetPage0:
+   ; add ax, -64000
+   ; jmp SetBase
+   ; SetPage1:
+   ; mov ax, 64000
+   ; SetBase:
+   ; mov CurrentPageOffset, ax
    
-   
-   
+   ;mov ax, 0a000h
+   ;mov es,ax
    
    ;mov es, ax ; es pointer now holds page offset
-   pop ax
+   ;pop ax
    
    ; perform all updates to the new page here
     
     
     
    ; flip page to display the updates
-  ; call toggle_page ;the page that is being displayed is not the one being written to
+   call toggle_page ;the page that is being displayed is not the one being written to
    
    ; VYSNC?
    ; block copying
-   
-   
-   
+
    mov bx, 0
-   mov cx, 600; 0 indexed
+   mov cx, 0; 0 indexed
    mov ax, 320
    mul cx
    add bx, ax
    mov ax,90
    mov es:[bx], ax
-   
  ; tests
   ; mov si, 1
   ; new:
