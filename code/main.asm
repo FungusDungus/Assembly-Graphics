@@ -94,21 +94,54 @@ main proc
    
    ; tests
    
-   mov ax,es
-   add ax, 4000
-   mov es,ax
-   
    mov ax, 5
    mov bx, 60
-   mov es:[bx], ax
-   
-   
+   mov es:[bx], ax   
    mov ax, 90
    mov bx, 0
    mov es:[bx], ax
    mov bx, 5
    mov es:[bx], ax
+ 
    
+   mov ax,es
+   add ax, 4000
+   mov es,ax
+   
+   mov dx, 03c4h
+   mov ax, 04h
+   out dx, ax
+   
+   inc dx
+   mov ax, 06h
+   out dx, ax
+   
+   mov dx, 03d4h
+   mov ax, 14h
+   out dx, ax
+   
+   inc dx
+   mov dx, 0h
+   out dx, ax
+   
+   dec dx
+   mov ax, 17h
+   out dx,ax
+   
+   inc dx
+   mov ax, 0e3h
+   out dx, ax
+  
+   
+   mov ax, 5
+   mov bx, 60
+   mov es:[bx], ax   
+   mov ax, 90
+   mov bx, 0
+   mov es:[bx], ax
+   mov bx, 5
+   mov es:[bx], ax
+    
    
    mov dx, 3d4h
       
