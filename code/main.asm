@@ -3,7 +3,7 @@
 .data
 
 ; the current page counter-intuitively denotes the page not being displayed but being written to
-CurrentPageOffset dw 0a000h ; video memory begins at 0a000h
+CurrentPage dw 0
 
 .code
 
@@ -34,17 +34,81 @@ toggle_page proc
    push ax
    push dx
    push cx
-   mov ax, [CurrentPageOffset]
-   cmp ax, 0a000h
+   mov ax, [CurrentPage]
+   cmp ax, 0
    je DispPage0
    DispPage1:
+   dec [CurrentPage]
    mov cx, 3e80h
    jmp PerformDisp
    DispPage0:
+   inc [CurrentPage]
    xor cx, cx
    PerformDisp:
    
    xor ax, ax
+   
+   mov dx, 3d4h
+      
+   mov ax, 0dh
+   out dx, ax
+   
+   
+   inc dx
+   mov ax, 00h; lower start bits
+   out dx,ax
+   
+   
+   dec dx
+   mov ax, 0ch
+   out dx, ax
+   
+   
+   inc dx
+   mov ax, 7dh; upper start bits
+   out dx,ax
+   
+   pop cx
+   pop dx
+   pop ax
+   ret
+   
+toggle_page endp
+
+
+main proc
+   mov ah, 0   ; video mode
+   mov al, 13h ; mode
+   int 10h
+   
+   ; preload first page
+   ; make this a procedure
+   
+
+   
+   mov ax, 0a000h; video memory begins at 0a000h
+   mov es, ax ; es pointer now holds page offset
+   
+   ; perform all updates to the new page here
+   
+   
+   ; tests
+   
+   mov ax,es
+   add ax, 4000
+   mov es,ax
+   
+   mov ax, 5
+   mov bx, 60
+   mov es:[bx], ax
+   
+   
+   mov ax, 90
+   mov bx, 0
+   mov es:[bx], ax
+   mov bx, 5
+   mov es:[bx], ax
+   
    
    mov dx, 3d4h
       
@@ -63,62 +127,51 @@ toggle_page proc
    
    
    inc dx
-   mov ax, 3eh ; upper start bits
+   mov ax, 3eh; upper start bits
    out dx,ax
    
-   pop cx
-   pop dx
-   pop ax
-   ret
-toggle_page endp
-
-
-main proc
-   mov ah, 0   ; video mode
-   mov al, 13h ; mode
-   int 10h
    
-   ; preload first page
-   ; make this a procedure
    
-   mov ax, 0a000h
-   mov es,ax
+   L1:
    
-   ; push ax
-   ; mov ax, [CurrentPageOffset]
-   ; cmp ax, 0a000h
-   ; je SetPage1
-   ; SetPage0:
-   ; add ax, -64000
-   ; jmp SetBase
-   ; SetPage1:
-   ; mov ax, 64000
-   ; SetBase:
-   ; mov CurrentPageOffset, ax
-   
-   ;mov ax, 0a000h
-   ;mov es,ax
-   
-   ;mov es, ax ; es pointer now holds page offset
-   ;pop ax
-   
-   ; perform all updates to the new page here
-    
+   ; mov bx, 0
+   ; mov cx, 0; 0 indexed
+   ; mov ax, 320
+   ; mul cx
+   ; add bx, ax
+   ; cmp [CurrentPage], 0
+   ; je Color
+   ; add bx, 64000
+   ; Color:
+   ; mov ax,90
+   ; mov es:[bx], ax
     
     
    ; flip page to display the updates
-   call toggle_page ;the page that is being displayed is not the one being written to
+   ;the page that is being displayed is not the one being written to
+   
+   ; mov bx, 319
+   ; mov cx, 199; 0 indexed
+   ; mov ax, 320
+   ; mul cx
+   ; add bx, ax
+   ; cmp [CurrentPage], 0
+   ; je Color1
+   ; add bx, 64000
+   ; Color1:
+   ; mov ax,5
+   ; mov es:[bx], ax
+
+   ;call toggle_page
+   cmp cx,50000
+   inc cx
+   jne done
+   
+   jmp L1
    
    ; VYSNC?
    ; block copying
-
-   mov bx, 0
-   mov cx, 0; 0 indexed
-   mov ax, 320
-   mul cx
-   add bx, ax
-   mov ax,90
-   mov es:[bx], ax
+   
  ; tests
   ; mov si, 1
   ; new:
