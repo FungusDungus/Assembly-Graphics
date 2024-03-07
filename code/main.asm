@@ -94,24 +94,18 @@ main proc
    
    ; tests
    
-   mov ax, 5 ; color
-   mov bx, 60 ; offset from memory: Real formula is width x y coord + xcoord
-   mov es:[bx], ax  ; setting the color 
-   mov ax, 90
-   mov bx, 0
-   mov es:[bx], ax
-   mov bx, 5
-   mov es:[bx], ax
+  ;  mov ax, 90; color
+   ; mov bx, 0 ; offset from memory: Real formula is width x y coord + xcoord
+    ;mov es:[bx], ax  ; setting the color 
    
-   
-   mov ax,es
-   add ax, 4000 ; 4000 x 16 = 64000 = 320 x 200 (320 x 200 is resolution of screen)
-   mov es,ax
+   ; mov ax,es
+   ; add ax, 4000 ; 4000 x 16 = 64000 = 320 x 200 (320 x 200 is resolution of screen)
+   ; mov es,ax
    
    ; plane 0: 0 - 16k mapped byte to color you have pixels 0 - 4 - 8 etc. for the screen
    ; to swap change start to 16k which is 4k in video mode adresses
    mov dx, 03c4h
-   mov ax, 04h
+   mov ax, 0604h
    out dx, ax
    
    inc dx
@@ -133,41 +127,38 @@ main proc
    inc dx
    mov ax, 0e3h
    out dx, ax
-  
    
-   mov ax, 5
-   mov bx, 60
-   mov es:[bx], ax   
-   mov ax, 90
-   mov bx, 1535
-   mov es:[bx], ax
-   mov bx, 5
-   mov es:[bx], ax
-    
+   mov dx, 03c4h
+   mov ax, 02h
+   out dx,ax
    
-   mov dx, 3d4h ; storing crtc index register write port
+   inc dx
+   mov ax, 00001111b
+   out dx,ax
+   
+   ; mov dx, 3d4h ; storing crtc index register write port
       
-   mov ax, 0dh ; storing index value
-   out dx, ax ; output to port dx value ax
+   ; mov ax, 0dh ; storing index value
+   ; out dx, ax ; output to port dx value ax
    
    
-   inc dx
-   mov ax, 80h; lower start bits
-   out dx,ax
+   ; inc dx
+   ; mov ax, 80h; lower start bits
+   ; out dx,ax
    
    
-   dec dx
-   mov ax, 0ch
-   out dx, ax
+   ; dec dx
+   ; mov ax, 0ch
+   ; out dx, ax
    
    
-   inc dx
-   mov ax, 3eh; upper start bits
-   out dx,ax
+   ; inc dx
+   ; mov ax, 3eh; upper start bits
+   ; out dx,ax
    
    
    
-   L1:
+  ; L1:
    
    ; mov bx, 0
    ; mov cx, 0; 0 indexed
@@ -198,11 +189,11 @@ main proc
    ; mov es:[bx], ax
 
    ;call toggle_page
-   cmp cx,50000
-   inc cx
-   jne done
+   ; cmp cx,50000
+   ; inc cx
+   ; jne done
    
-   jmp L1
+   ; jmp L1
    
    ; VYSNC?
    ; block copying
@@ -228,7 +219,25 @@ main proc
    ; jbe new
    ; mov si,1
    ; jmp new
- ; end tests
+   
+   
+   
+   ; mov ah, 0
+   ; mov al, 0
+   ; mov cx, 32000
+   ; mov di, 0
+   ; cld
+   ; L1:
+   ; rep stosw
+   ; mov cx, 32000
+   ; inc ah
+   ; inc al
+   ; cmp ah, 255
+   ; jb L1
+   ; mov ah, 0
+   ; mov al, 0
+   ; jmp L1
+ ;end tests
       
    ; exit on keystroke
    done:
