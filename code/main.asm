@@ -86,7 +86,7 @@ main proc
    
 
    
-   mov ax, 0a000h; video memory begins at 0a000h
+   mov ax, 0a000h; video memory begins at segment 0a000h, actual address is this X 16
    mov es, ax ; es pointer now holds page offset
    
    ; perform all updates to the new page here
@@ -94,20 +94,22 @@ main proc
    
    ; tests
    
-   mov ax, 5
-   mov bx, 60
-   mov es:[bx], ax   
+   mov ax, 5 ; color
+   mov bx, 60 ; offset from memory: Real formula is width x y coord + xcoord
+   mov es:[bx], ax  ; setting the color 
    mov ax, 90
    mov bx, 0
    mov es:[bx], ax
    mov bx, 5
    mov es:[bx], ax
- 
+   
    
    mov ax,es
-   add ax, 4000
+   add ax, 4000 ; 4000 x 16 = 64000 = 320 x 200 (320 x 200 is resolution of screen)
    mov es,ax
    
+   ; plane 0: 0 - 16k mapped byte to color you have pixels 0 - 4 - 8 etc. for the screen
+   ; to swap change start to 16k which is 4k in video mode adresses
    mov dx, 03c4h
    mov ax, 04h
    out dx, ax
@@ -137,16 +139,16 @@ main proc
    mov bx, 60
    mov es:[bx], ax   
    mov ax, 90
-   mov bx, 0
+   mov bx, 1535
    mov es:[bx], ax
    mov bx, 5
    mov es:[bx], ax
     
    
-   mov dx, 3d4h
+   mov dx, 3d4h ; storing crtc index register write port
       
-   mov ax, 0dh
-   out dx, ax
+   mov ax, 0dh ; storing index value
+   out dx, ax ; output to port dx value ax
    
    
    inc dx
