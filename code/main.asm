@@ -16,6 +16,47 @@ main proc
    mov ax, 0a000h; video memory begins at segment 0a000h, actual address is this X 16
    mov es, ax ; es pointer now holds page offset
    
+   ; mov dx, 3c4h
+   ; mov ax, 04h
+   ; out dx, ax
+   
+   ; mov dx, 3c5h
+   ; mov ax, 06h
+   ; out dx, ax
+   
+   ; mov dx, 3d4h
+   ; mov ax, 14h
+   ; out dx, ax
+   
+   ; mov dx, 3d5h
+   ; mov ax, 0h
+   ; out dx, ax
+
+   ; mov dx, 3d4h
+   ; mov ax, 17h
+   ; out dx, ax 
+   
+   ; mov dx, 3d5h
+   ; mov ax, 0e3h
+   ; out dx, ax 
+   
+   
+   ; mov dx, 3c4h
+   ; mov ax, 02h
+   ; out dx, ax
+   
+   ; mov dx, 3c5h
+   ; mov ax, 11111111b
+   ; out dx, ax
+   
+   
+   
+   ; mov ax, 90
+   ; mov bx, 0
+   ; mov es:[bx], ax
+   
+   
+   
    ; perform all updates to the new page here
    
    
@@ -27,21 +68,21 @@ main proc
    
    
    
-   ; mov ah, 0
-   ; mov al, 0
-   ; mov cx, 32000
-   ; mov di, 0
-   ; cld
-   ; L1:
-   ; rep stosw
-   ; mov cx, 32000
-   ; inc ah
-   ; inc al
-   ; cmp ah, 255
-   ; jb L1
-   ; mov ah, 0
-   ; mov al, 0
-   ; jmp L1
+   mov ah, 0
+   mov al, 0
+   mov cx, 64000
+   mov di, 0
+   cld
+   L1:
+   rep stosw
+   mov cx, 64000
+   inc ah
+   inc al
+   cmp ah, 255
+   jb L1
+   mov ah, 0
+   mov al, 0
+   jmp L1
    
    ;VSYNC?
  ;end tests
