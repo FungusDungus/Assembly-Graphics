@@ -18,3 +18,11 @@ How to setup your workspace:
    set PATH=%PATH%;C:\8086\
   
 5. Use build batch script to compile and link
+
+## List of potential games
+
+1. Frogger/crossy road ish game
+2. Pac-Man
+3. Space invaders
+4. Snake
+5. Pong
