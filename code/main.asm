@@ -1,4 +1,5 @@
 .model flat,stdcall
+INCLUDE pacman.inc
 .stack 4096
 .data
 .code
@@ -64,25 +65,26 @@ main proc
    ;mov ax, 90; color
    ;mov bx, 0 ; offset from memory: Real formula is width x y coord + xcoord
    ;mov es:[bx], ax  ; setting the color 
-
    
-   
-   
-   mov ah, 0
-   mov al, 0
-   mov cx, 64000
-   mov di, 0
-   cld
-   L1:
-   rep stosw
-   mov cx, 64000
-   inc ah
-   inc al
-   cmp ah, 255
-   jb L1
-   mov ah, 0
-   mov al, 0
-   jmp L1
+   pacmanSHOW 0, 0
+   pacmanSHOW 303,0
+   pacmanSHOW 0, 183
+   pacmanSHOW 303,183
+   ; mov ah, 0
+   ; mov al, 0
+   ; mov cx, 64000
+   ; mov di, 0
+   ; cld
+   ; L1:
+   ; rep stosw
+   ; mov cx, 64000
+   ; inc ah
+   ; inc al
+   ; cmp ah, 255
+   ; jb L1
+   ; mov ah, 0
+   ; mov al, 0
+   ; jmp L1
    
    ;VSYNC?
  ;end tests
