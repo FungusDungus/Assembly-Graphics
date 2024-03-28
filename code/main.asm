@@ -2,74 +2,36 @@
 INCLUDE pacman.inc
 .stack 4096
 .data
+time_passed DB 0
 .code
 
 main proc
+
    mov ah, 0   ; video mode
    mov al, 13h ; mode
    int 10h
    
-   ; preload first page
-   ; make this a procedure
-   
-
    
    mov ax, 0a000h; video memory begins at segment 0a000h, actual address is this X 16
    mov es, ax ; es pointer now holds page offset
-   
-   ; mov dx, 3c4h
-   ; mov ax, 04h
-   ; out dx, ax
-   
-   ; mov dx, 3c5h
-   ; mov ax, 06h
-   ; out dx, ax
-   
-   ; mov dx, 3d4h
-   ; mov ax, 14h
-   ; out dx, ax
-   
-   ; mov dx, 3d5h
-   ; mov ax, 0h
-   ; out dx, ax
 
-   ; mov dx, 3d4h
-   ; mov ax, 17h
-   ; out dx, ax 
    
-   ; mov dx, 3d5h
-   ; mov ax, 0e3h
-   ; out dx, ax 
+   mov bx,0
+   mov ah, 2ch ; system time code
+   L1:
+   int 21h ; interrupt used to get system time touches cx and dx
+   cmp dl, time_passed
+   je L1
    
+   mov time_passed, dl
+   add bx, 5
    
-   ; mov dx, 3c4h
-   ; mov ax, 02h
-   ; out dx, ax
+   pacmanSHOW 0, bx
+   pacmanSHOW 18, bx
+   cmp bx, 150
+   je done
+   jmp L1
    
-   ; mov dx, 3c5h
-   ; mov ax, 11111111b
-   ; out dx, ax
-   
-   
-   
-   ; mov ax, 90
-   ; mov bx, 0
-   ; mov es:[bx], ax
-   
-   
-   
-   ; perform all updates to the new page here
-   
-   
-   
-   ;mov ax, 90; color
-   ;mov bx, 0 ; offset from memory: Real formula is width x y coord + xcoord
-   ;mov es:[bx], ax  ; setting the color 
-   
-   pacmanSHOW 0, 0
-   pacmanSHOW 303,0
-   pacmanSHOW 0, 183
-   pacmanSHOW 303,183
    ; mov ah, 0
    ; mov al, 0
    ; mov cx, 64000
