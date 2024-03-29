@@ -1,5 +1,6 @@
 .model flat,stdcall
 INCLUDE pacman.inc
+INCLUDE arena.inc
 .stack 4096
 .data
 time_passed DB 0
@@ -14,8 +15,9 @@ main proc
    
    mov ax, 0a000h; video memory begins at segment 0a000h, actual address is this X 16
    mov es, ax ; es pointer now holds page offset
-
    
+   
+   arenaSHOW 0,0
    mov bx,0
    mov ah, 2ch ; system time code
    L1:
@@ -24,32 +26,14 @@ main proc
    je L1
    
    mov time_passed, dl
-   add bx, 5
+   add bx, 1
    
-   pacmanSHOW 0, bx
-   pacmanSHOW 18, bx
-   cmp bx, 150
+   ;pacmanSHOW 0, bx
+   ;pacmanSHOW 10, bx
+   cmp bx, 183
    je done
    jmp L1
    
-   ; mov ah, 0
-   ; mov al, 0
-   ; mov cx, 64000
-   ; mov di, 0
-   ; cld
-   ; L1:
-   ; rep stosw
-   ; mov cx, 64000
-   ; inc ah
-   ; inc al
-   ; cmp ah, 255
-   ; jb L1
-   ; mov ah, 0
-   ; mov al, 0
-   ; jmp L1
-   
-   ;VSYNC?
- ;end tests
       
    ; exit on keystroke
    done:
