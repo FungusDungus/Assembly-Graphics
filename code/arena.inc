@@ -150,6 +150,122 @@ add bx, 2
 mov es:[bx], WORD PTR 13878
 add bx, 2
 mov es:[bx], WORD PTR 13878
+add bx, 178
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
 add bx, 2
 mov es:[bx], WORD PTR 13878
 add bx, 2
@@ -178,6 +294,14 @@ add bx, 2
 mov es:[bx], WORD PTR 13878
 add bx, 2
 mov es:[bx], WORD PTR 13878
+add bx, 176
+mov es:[bx], WORD PTR 13878
+add bx, 320
+mov es:[bx], WORD PTR 13878
+add bx, 320
+mov es:[bx], WORD PTR 13878
+add bx, 4
+mov es:[bx], WORD PTR 13878
 add bx, 2
 mov es:[bx], WORD PTR 13878
 add bx, 2
@@ -294,7 +418,7 @@ add bx, 2
 mov es:[bx], WORD PTR 13878
 add bx, 2
 mov es:[bx], WORD PTR 13878
-add bx, 34
+add bx, 2
 mov es:[bx], WORD PTR 13878
 add bx, 2
 mov es:[bx], WORD PTR 13878
@@ -318,6 +442,10 @@ add bx, 2
 mov es:[bx], WORD PTR 13878
 add bx, 2
 mov es:[bx], WORD PTR 13878
+add bx, 176
+mov es:[bx], WORD PTR 13878
+add bx, 4
+mov es:[bx], WORD PTR 13878
 add bx, 2
 mov es:[bx], WORD PTR 13878
 add bx, 2
@@ -457,7 +585,53 @@ mov es:[bx], WORD PTR 13878
 add bx, 2
 mov es:[bx], WORD PTR 13878
 add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 176
+mov es:[bx], WORD PTR 13878
+add bx, 4
+mov es:[bx], WORD PTR 13878
+add bx, 316
+mov es:[bx], WORD PTR 13878
+add bx, 4
+mov es:[bx], WORD PTR 13878
+add bx, 316
+mov es:[bx], WORD PTR 13878
+add bx, 4
+mov es:[bx], WORD PTR 13878
+add bx, 316
+mov es:[bx], WORD PTR 13878
+add bx, 4
+mov es:[bx], WORD PTR 13878
+add bx, 316
+mov es:[bx], WORD PTR 13878
+add bx, 4
+mov es:[bx], WORD PTR 13878
+add bx, 316
+mov es:[bx], WORD PTR 13878
+add bx, 4
+mov es:[bx], WORD PTR 13878
+add bx, 316
+mov es:[bx], WORD PTR 13878
+add bx, 4
+mov es:[bx], WORD PTR 13878
+add bx, 316
+mov es:[bx], WORD PTR 13878
+add bx, 4
+mov es:[bx], WORD PTR 13878
+add bx, 316
+mov es:[bx], WORD PTR 13878
+add bx, 4
 mov es:[bx], WORD PTR 13878
+add bx, 316
+mov es:[bx], WORD PTR 13878
+add bx, 4
+mov es:[bx], WORD PTR 13878
+add bx, 316
+mov es:[bx], WORD PTR 13878
+add bx, 4
+mov es:[bx], WORD PTR 13878
+add bx, 14
+mov es:[bx], WORD PTR 13878
 add bx, 2
 mov es:[bx], WORD PTR 13878
 add bx, 2
@@ -476,6 +650,8 @@ add bx, 2
 mov es:[bx], WORD PTR 13878
 add bx, 2
 mov es:[bx], WORD PTR 13878
+add bx, 16
+mov es:[bx], WORD PTR 13878
 add bx, 2
 mov es:[bx], WORD PTR 13878
 add bx, 2
@@ -503,7 +679,11 @@ mov es:[bx], WORD PTR 13878
 add bx, 2
 mov es:[bx], WORD PTR 13878
 add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 16
 mov es:[bx], WORD PTR 13878
+add bx, 16
+mov es:[bx], WORD PTR 13878
 add bx, 2
 mov es:[bx], WORD PTR 13878
 add bx, 2
@@ -516,10 +696,18 @@ add bx, 2
 mov es:[bx], WORD PTR 13878
 add bx, 2
 mov es:[bx], WORD PTR 13878
+add bx, 16
+mov es:[bx], WORD PTR 13878
 add bx, 2
 mov es:[bx], WORD PTR 13878
 add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 176
 mov es:[bx], WORD PTR 13878
+add bx, 4
+mov es:[bx], WORD PTR 13878
+add bx, 14
+mov es:[bx], WORD PTR 13878
 add bx, 2
 mov es:[bx], WORD PTR 13878
 add bx, 2
@@ -538,6 +726,8 @@ add bx, 2
 mov es:[bx], WORD PTR 13878
 add bx, 2
 mov es:[bx], WORD PTR 13878
+add bx, 16
+mov es:[bx], WORD PTR 13878
 add bx, 2
 mov es:[bx], WORD PTR 13878
 add bx, 2
@@ -565,6 +755,10 @@ mov es:[bx], WORD PTR 13878
 add bx, 2
 mov es:[bx], WORD PTR 13878
 add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 16
+mov es:[bx], WORD PTR 13878
+add bx, 16
 mov es:[bx], WORD PTR 13878
 add bx, 2
 mov es:[bx], WORD PTR 13878
@@ -578,691 +772,1457 @@ add bx, 2
 mov es:[bx], WORD PTR 13878
 add bx, 2
 mov es:[bx], WORD PTR 13878
+add bx, 16
+mov es:[bx], WORD PTR 13878
 add bx, 2
 mov es:[bx], WORD PTR 13878
 add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 176
+mov es:[bx], WORD PTR 13878
+add bx, 4
+mov es:[bx], WORD PTR 13878
+add bx, 12
+mov es:[bx], WORD PTR 13878
+add bx, 22
+mov es:[bx], WORD PTR 13878
+add bx, 12
 mov es:[bx], WORD PTR 13878
 add bx, 32
 mov es:[bx], WORD PTR 13878
-add bx, 290
-mov es:[bx], WORD PTR 13878
-add bx, 30
-mov es:[bx], WORD PTR 13878
-add bx, 290
-mov es:[bx], WORD PTR 13878
-add bx, 30
+add bx, 12
 mov es:[bx], WORD PTR 13878
 add bx, 4
 mov es:[bx], WORD PTR 13878
-add bx, 2
+add bx, 12
 mov es:[bx], WORD PTR 13878
-add bx, 2
+add bx, 16
 mov es:[bx], WORD PTR 13878
-add bx, 2
+add bx, 12
 mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
+add bx, 182
 mov es:[bx], WORD PTR 13878
 add bx, 4
 mov es:[bx], WORD PTR 13878
-add bx, 30
+add bx, 12
+mov es:[bx], WORD PTR 13878
+add bx, 22
+mov es:[bx], WORD PTR 13878
+add bx, 12
+mov es:[bx], WORD PTR 13878
+add bx, 32
+mov es:[bx], WORD PTR 13878
+add bx, 12
 mov es:[bx], WORD PTR 13878
 add bx, 4
 mov es:[bx], WORD PTR 13878
-add bx, 2
+add bx, 12
 mov es:[bx], WORD PTR 13878
-add bx, 2
+add bx, 16
 mov es:[bx], WORD PTR 13878
-add bx, 2
+add bx, 12
 mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
+add bx, 182
 mov es:[bx], WORD PTR 13878
 add bx, 4
 mov es:[bx], WORD PTR 13878
-add bx, 30
+add bx, 12
+mov es:[bx], WORD PTR 13878
+add bx, 22
+mov es:[bx], WORD PTR 13878
+add bx, 12
+mov es:[bx], WORD PTR 13878
+add bx, 32
+mov es:[bx], WORD PTR 13878
+add bx, 12
 mov es:[bx], WORD PTR 13878
 add bx, 4
+mov es:[bx], WORD PTR 13878
+add bx, 12
+mov es:[bx], WORD PTR 13878
+add bx, 16
+mov es:[bx], WORD PTR 13878
+add bx, 12
+mov es:[bx], WORD PTR 13878
+add bx, 182
+mov es:[bx], WORD PTR 13878
+add bx, 4
+mov es:[bx], WORD PTR 13878
+add bx, 12
+mov es:[bx], WORD PTR 13878
+add bx, 22
+mov es:[bx], WORD PTR 13878
+add bx, 12
+mov es:[bx], WORD PTR 13878
+add bx, 32
+mov es:[bx], WORD PTR 13878
+add bx, 12
+mov es:[bx], WORD PTR 13878
+add bx, 4
+mov es:[bx], WORD PTR 13878
+add bx, 12
+mov es:[bx], WORD PTR 13878
+add bx, 16
+mov es:[bx], WORD PTR 13878
+add bx, 12
+mov es:[bx], WORD PTR 13878
+add bx, 182
+mov es:[bx], WORD PTR 13878
+add bx, 4
+mov es:[bx], WORD PTR 13878
+add bx, 12
+mov es:[bx], WORD PTR 13878
+add bx, 22
+mov es:[bx], WORD PTR 13878
+add bx, 12
+mov es:[bx], WORD PTR 13878
+add bx, 32
+mov es:[bx], WORD PTR 13878
+add bx, 12
+mov es:[bx], WORD PTR 13878
+add bx, 4
+mov es:[bx], WORD PTR 13878
+add bx, 12
+mov es:[bx], WORD PTR 13878
+add bx, 16
+mov es:[bx], WORD PTR 13878
+add bx, 12
+mov es:[bx], WORD PTR 13878
+add bx, 182
+mov es:[bx], WORD PTR 13878
+add bx, 4
+mov es:[bx], WORD PTR 13878
+add bx, 12
+mov es:[bx], WORD PTR 13878
+add bx, 22
+mov es:[bx], WORD PTR 13878
+add bx, 12
+mov es:[bx], WORD PTR 13878
+add bx, 32
+mov es:[bx], WORD PTR 13878
+add bx, 12
+mov es:[bx], WORD PTR 13878
+add bx, 4
+mov es:[bx], WORD PTR 13878
+add bx, 12
+mov es:[bx], WORD PTR 13878
+add bx, 16
+mov es:[bx], WORD PTR 13878
+add bx, 12
+mov es:[bx], WORD PTR 13878
+add bx, 182
+mov es:[bx], WORD PTR 13878
+add bx, 4
+mov es:[bx], WORD PTR 13878
+add bx, 12
+mov es:[bx], WORD PTR 13878
+add bx, 22
+mov es:[bx], WORD PTR 13878
+add bx, 12
+mov es:[bx], WORD PTR 13878
+add bx, 32
+mov es:[bx], WORD PTR 13878
+add bx, 12
+mov es:[bx], WORD PTR 13878
+add bx, 4
+mov es:[bx], WORD PTR 13878
+add bx, 12
+mov es:[bx], WORD PTR 13878
+add bx, 16
+mov es:[bx], WORD PTR 13878
+add bx, 12
+mov es:[bx], WORD PTR 13878
+add bx, 182
+mov es:[bx], WORD PTR 13878
+add bx, 4
+mov es:[bx], WORD PTR 13878
+add bx, 12
+mov es:[bx], WORD PTR 13878
+add bx, 22
+mov es:[bx], WORD PTR 13878
+add bx, 12
+mov es:[bx], WORD PTR 13878
+add bx, 32
+mov es:[bx], WORD PTR 13878
+add bx, 12
+mov es:[bx], WORD PTR 13878
+add bx, 4
+mov es:[bx], WORD PTR 13878
+add bx, 12
+mov es:[bx], WORD PTR 13878
+add bx, 16
+mov es:[bx], WORD PTR 13878
+add bx, 12
+mov es:[bx], WORD PTR 13878
+add bx, 182
+mov es:[bx], WORD PTR 13878
+add bx, 4
+mov es:[bx], WORD PTR 13878
+add bx, 12
+mov es:[bx], WORD PTR 13878
+add bx, 22
+mov es:[bx], WORD PTR 13878
+add bx, 12
+mov es:[bx], WORD PTR 13878
+add bx, 32
+mov es:[bx], WORD PTR 13878
+add bx, 12
+mov es:[bx], WORD PTR 13878
+add bx, 4
+mov es:[bx], WORD PTR 13878
+add bx, 12
+mov es:[bx], WORD PTR 13878
+add bx, 16
+mov es:[bx], WORD PTR 13878
+add bx, 12
+mov es:[bx], WORD PTR 13878
+add bx, 182
+mov es:[bx], WORD PTR 13878
+add bx, 4
+mov es:[bx], WORD PTR 13878
+add bx, 12
+mov es:[bx], WORD PTR 13878
+add bx, 22
+mov es:[bx], WORD PTR 13878
+add bx, 12
+mov es:[bx], WORD PTR 13878
+add bx, 32
+mov es:[bx], WORD PTR 13878
+add bx, 12
+mov es:[bx], WORD PTR 13878
+add bx, 4
+mov es:[bx], WORD PTR 13878
+add bx, 12
+mov es:[bx], WORD PTR 13878
+add bx, 16
+mov es:[bx], WORD PTR 13878
+add bx, 12
+mov es:[bx], WORD PTR 13878
+add bx, 182
+mov es:[bx], WORD PTR 13878
+add bx, 4
+mov es:[bx], WORD PTR 13878
+add bx, 12
+mov es:[bx], WORD PTR 13878
+add bx, 22
+mov es:[bx], WORD PTR 13878
+add bx, 12
+mov es:[bx], WORD PTR 13878
+add bx, 32
+mov es:[bx], WORD PTR 13878
+add bx, 12
+mov es:[bx], WORD PTR 13878
+add bx, 4
+mov es:[bx], WORD PTR 13878
+add bx, 12
+mov es:[bx], WORD PTR 13878
+add bx, 16
+mov es:[bx], WORD PTR 13878
+add bx, 12
+mov es:[bx], WORD PTR 13878
+add bx, 182
+mov es:[bx], WORD PTR 13878
+add bx, 4
+mov es:[bx], WORD PTR 13878
+add bx, 12
+mov es:[bx], WORD PTR 13878
+add bx, 22
+mov es:[bx], WORD PTR 13878
+add bx, 12
+mov es:[bx], WORD PTR 13878
+add bx, 32
+mov es:[bx], WORD PTR 13878
+add bx, 12
+mov es:[bx], WORD PTR 13878
+add bx, 4
+mov es:[bx], WORD PTR 13878
+add bx, 12
+mov es:[bx], WORD PTR 13878
+add bx, 16
+mov es:[bx], WORD PTR 13878
+add bx, 12
+mov es:[bx], WORD PTR 13878
+add bx, 182
+mov es:[bx], WORD PTR 13878
+add bx, 4
+mov es:[bx], WORD PTR 13878
+add bx, 12
+mov es:[bx], WORD PTR 13878
+add bx, 22
+mov es:[bx], WORD PTR 13878
+add bx, 12
+mov es:[bx], WORD PTR 13878
+add bx, 32
+mov es:[bx], WORD PTR 13878
+add bx, 12
+mov es:[bx], WORD PTR 13878
+add bx, 4
+mov es:[bx], WORD PTR 13878
+add bx, 12
+mov es:[bx], WORD PTR 13878
+add bx, 16
+mov es:[bx], WORD PTR 13878
+add bx, 12
+mov es:[bx], WORD PTR 13878
+add bx, 182
+mov es:[bx], WORD PTR 13878
+add bx, 4
+mov es:[bx], WORD PTR 13878
+add bx, 12
+mov es:[bx], WORD PTR 13878
+add bx, 22
+mov es:[bx], WORD PTR 13878
+add bx, 12
+mov es:[bx], WORD PTR 13878
+add bx, 32
+mov es:[bx], WORD PTR 13878
+add bx, 12
+mov es:[bx], WORD PTR 13878
+add bx, 4
+mov es:[bx], WORD PTR 13878
+add bx, 12
+mov es:[bx], WORD PTR 13878
+add bx, 16
+mov es:[bx], WORD PTR 13878
+add bx, 12
+mov es:[bx], WORD PTR 13878
+add bx, 182
+mov es:[bx], WORD PTR 13878
+add bx, 4
+mov es:[bx], WORD PTR 13878
+add bx, 14
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 16
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 14
+mov es:[bx], WORD PTR 13878
+add bx, 4
+mov es:[bx], WORD PTR 13878
+add bx, 12
+mov es:[bx], WORD PTR 13878
+add bx, 16
+mov es:[bx], WORD PTR 13878
+add bx, 12
+mov es:[bx], WORD PTR 13878
+add bx, 182
+mov es:[bx], WORD PTR 13878
+add bx, 4
+mov es:[bx], WORD PTR 13878
+add bx, 14
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 16
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 14
+mov es:[bx], WORD PTR 13878
+add bx, 4
+mov es:[bx], WORD PTR 13878
+add bx, 12
+mov es:[bx], WORD PTR 13878
+add bx, 16
+mov es:[bx], WORD PTR 13878
+add bx, 12
+mov es:[bx], WORD PTR 13878
+add bx, 182
+mov es:[bx], WORD PTR 13878
+add bx, 4
+mov es:[bx], WORD PTR 13878
+add bx, 90
+mov es:[bx], WORD PTR 13878
+add bx, 4
+mov es:[bx], WORD PTR 13878
+add bx, 12
+mov es:[bx], WORD PTR 13878
+add bx, 16
+mov es:[bx], WORD PTR 13878
+add bx, 12
+mov es:[bx], WORD PTR 13878
+add bx, 182
+mov es:[bx], WORD PTR 13878
+add bx, 4
+mov es:[bx], WORD PTR 13878
+add bx, 90
+mov es:[bx], WORD PTR 13878
+add bx, 4
+mov es:[bx], WORD PTR 13878
+add bx, 12
+mov es:[bx], WORD PTR 13878
+add bx, 16
+mov es:[bx], WORD PTR 13878
+add bx, 12
+mov es:[bx], WORD PTR 13878
+add bx, 182
+mov es:[bx], WORD PTR 13878
+add bx, 4
+mov es:[bx], WORD PTR 13878
+add bx, 90
+mov es:[bx], WORD PTR 13878
+add bx, 4
+mov es:[bx], WORD PTR 13878
+add bx, 12
+mov es:[bx], WORD PTR 13878
+add bx, 16
+mov es:[bx], WORD PTR 13878
+add bx, 12
+mov es:[bx], WORD PTR 13878
+add bx, 182
+mov es:[bx], WORD PTR 13878
+add bx, 4
+mov es:[bx], WORD PTR 13878
+add bx, 90
+mov es:[bx], WORD PTR 13878
+add bx, 4
+mov es:[bx], WORD PTR 13878
+add bx, 12
+mov es:[bx], WORD PTR 13878
+add bx, 16
+mov es:[bx], WORD PTR 13878
+add bx, 12
+mov es:[bx], WORD PTR 13878
+add bx, 182
+mov es:[bx], WORD PTR 13878
+add bx, 4
+mov es:[bx], WORD PTR 13878
+add bx, 90
+mov es:[bx], WORD PTR 13878
+add bx, 4
+mov es:[bx], WORD PTR 13878
+add bx, 14
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 14
+mov es:[bx], WORD PTR 13878
+add bx, 182
+mov es:[bx], WORD PTR 13878
+add bx, 4
+mov es:[bx], WORD PTR 13878
+add bx, 90
+mov es:[bx], WORD PTR 13878
+add bx, 4
+mov es:[bx], WORD PTR 13878
+add bx, 14
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 14
+mov es:[bx], WORD PTR 13878
+add bx, 182
+mov es:[bx], WORD PTR 13878
+add bx, 4
+mov es:[bx], WORD PTR 13878
+add bx, 90
+mov es:[bx], WORD PTR 13878
+add bx, 4
+mov es:[bx], WORD PTR 13878
+add bx, 40
+mov es:[bx], WORD PTR 13878
+add bx, 182
+mov es:[bx], WORD PTR 13878
+add bx, 4
+mov es:[bx], WORD PTR 13878
+add bx, 90
+mov es:[bx], WORD PTR 13878
+add bx, 4
+mov es:[bx], WORD PTR 13878
+add bx, 40
+mov es:[bx], WORD PTR 13878
+add bx, 182
+mov es:[bx], WORD PTR 13878
+add bx, 4
+mov es:[bx], WORD PTR 13878
+add bx, 90
+mov es:[bx], WORD PTR 13878
+add bx, 4
+mov es:[bx], WORD PTR 13878
+add bx, 40
+mov es:[bx], WORD PTR 13878
+add bx, 182
+mov es:[bx], WORD PTR 13878
+add bx, 4
+mov es:[bx], WORD PTR 13878
+add bx, 90
+mov es:[bx], WORD PTR 13878
+add bx, 4
+mov es:[bx], WORD PTR 13878
+add bx, 40
+mov es:[bx], WORD PTR 13878
+add bx, 182
+mov es:[bx], WORD PTR 13878
+add bx, 4
+mov es:[bx], WORD PTR 13878
+add bx, 14
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 16
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 16
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 14
+mov es:[bx], WORD PTR 13878
+add bx, 4
+mov es:[bx], WORD PTR 13878
+add bx, 40
+mov es:[bx], WORD PTR 13878
+add bx, 182
+mov es:[bx], WORD PTR 13878
+add bx, 4
+mov es:[bx], WORD PTR 13878
+add bx, 14
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 16
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 16
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 14
+mov es:[bx], WORD PTR 13878
+add bx, 4
+mov es:[bx], WORD PTR 13878
+add bx, 40
+mov es:[bx], WORD PTR 13878
+add bx, 182
+mov es:[bx], WORD PTR 13878
+add bx, 4
+mov es:[bx], WORD PTR 13878
+add bx, 12
+mov es:[bx], WORD PTR 13878
+add bx, 22
+mov es:[bx], WORD PTR 13878
+add bx, 12
+mov es:[bx], WORD PTR 13878
+add bx, 10
+mov es:[bx], WORD PTR 13878
+add bx, 12
+mov es:[bx], WORD PTR 13878
+add bx, 10
+mov es:[bx], WORD PTR 13878
+add bx, 12
+mov es:[bx], WORD PTR 13878
+add bx, 4
+mov es:[bx], WORD PTR 13878
+add bx, 40
+mov es:[bx], WORD PTR 13878
+add bx, 182
+mov es:[bx], WORD PTR 13878
+add bx, 4
+mov es:[bx], WORD PTR 13878
+add bx, 12
+mov es:[bx], WORD PTR 13878
+add bx, 22
+mov es:[bx], WORD PTR 13878
+add bx, 12
+mov es:[bx], WORD PTR 13878
+add bx, 10
+mov es:[bx], WORD PTR 13878
+add bx, 12
+mov es:[bx], WORD PTR 13878
+add bx, 10
+mov es:[bx], WORD PTR 13878
+add bx, 12
+mov es:[bx], WORD PTR 13878
+add bx, 4
+mov es:[bx], WORD PTR 13878
+add bx, 40
+mov es:[bx], WORD PTR 13878
+add bx, 182
+mov es:[bx], WORD PTR 13878
+add bx, 4
+mov es:[bx], WORD PTR 13878
+add bx, 12
+mov es:[bx], WORD PTR 13878
+add bx, 22
+mov es:[bx], WORD PTR 13878
+add bx, 12
+mov es:[bx], WORD PTR 13878
+add bx, 10
+mov es:[bx], WORD PTR 13878
+add bx, 14
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 14
+mov es:[bx], WORD PTR 13878
+add bx, 4
+mov es:[bx], WORD PTR 13878
+add bx, 40
+mov es:[bx], WORD PTR 13878
+add bx, 182
+mov es:[bx], WORD PTR 13878
+add bx, 4
+mov es:[bx], WORD PTR 13878
+add bx, 12
+mov es:[bx], WORD PTR 13878
+add bx, 22
+mov es:[bx], WORD PTR 13878
+add bx, 12
+mov es:[bx], WORD PTR 13878
+add bx, 10
+mov es:[bx], WORD PTR 13878
+add bx, 14
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 14
+mov es:[bx], WORD PTR 13878
+add bx, 4
+mov es:[bx], WORD PTR 13878
+add bx, 40
+mov es:[bx], WORD PTR 13878
+add bx, 182
+mov es:[bx], WORD PTR 13878
+add bx, 4
+mov es:[bx], WORD PTR 13878
+add bx, 14
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 14
+mov es:[bx], WORD PTR 13878
+add bx, 10
+mov es:[bx], WORD PTR 13878
+add bx, 34
+mov es:[bx], WORD PTR 13878
+add bx, 4
+mov es:[bx], WORD PTR 13878
+add bx, 14
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 182
+mov es:[bx], WORD PTR 13878
+add bx, 4
+mov es:[bx], WORD PTR 13878
+add bx, 14
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 14
+mov es:[bx], WORD PTR 13878
+add bx, 10
+mov es:[bx], WORD PTR 13878
+add bx, 34
+mov es:[bx], WORD PTR 13878
+add bx, 4
+mov es:[bx], WORD PTR 13878
+add bx, 14
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 182
+mov es:[bx], WORD PTR 13878
+add bx, 4
+mov es:[bx], WORD PTR 13878
+add bx, 46
+mov es:[bx], WORD PTR 13878
+add bx, 10
+mov es:[bx], WORD PTR 13878
+add bx, 34
+mov es:[bx], WORD PTR 13878
+add bx, 4
+mov es:[bx], WORD PTR 13878
+add bx, 12
+mov es:[bx], WORD PTR 13878
+add bx, 210
+mov es:[bx], WORD PTR 13878
+add bx, 4
+mov es:[bx], WORD PTR 13878
+add bx, 46
+mov es:[bx], WORD PTR 13878
+add bx, 10
+mov es:[bx], WORD PTR 13878
+add bx, 34
+mov es:[bx], WORD PTR 13878
+add bx, 4
+mov es:[bx], WORD PTR 13878
+add bx, 12
+mov es:[bx], WORD PTR 13878
+add bx, 210
+mov es:[bx], WORD PTR 13878
+add bx, 4
+mov es:[bx], WORD PTR 13878
+add bx, 46
+mov es:[bx], WORD PTR 13878
+add bx, 10
+mov es:[bx], WORD PTR 13878
+add bx, 34
+mov es:[bx], WORD PTR 13878
+add bx, 4
+mov es:[bx], WORD PTR 13878
+add bx, 12
+mov es:[bx], WORD PTR 13878
+add bx, 210
+mov es:[bx], WORD PTR 13878
+add bx, 4
+mov es:[bx], WORD PTR 13878
+add bx, 46
+mov es:[bx], WORD PTR 13878
+add bx, 10
+mov es:[bx], WORD PTR 13878
+add bx, 34
+mov es:[bx], WORD PTR 13878
+add bx, 4
+mov es:[bx], WORD PTR 13878
+add bx, 12
+mov es:[bx], WORD PTR 13878
+add bx, 210
+mov es:[bx], WORD PTR 13878
+add bx, 4
+mov es:[bx], WORD PTR 13878
+add bx, 46
+mov es:[bx], WORD PTR 13878
+add bx, 10
+mov es:[bx], WORD PTR 13878
+add bx, 34
+mov es:[bx], WORD PTR 13878
+add bx, 4
+mov es:[bx], WORD PTR 13878
+add bx, 12
+mov es:[bx], WORD PTR 13878
+add bx, 210
+mov es:[bx], WORD PTR 13878
+add bx, 4
+mov es:[bx], WORD PTR 13878
+add bx, 46
+mov es:[bx], WORD PTR 13878
+add bx, 10
+mov es:[bx], WORD PTR 13878
+add bx, 34
+mov es:[bx], WORD PTR 13878
+add bx, 4
+mov es:[bx], WORD PTR 13878
+add bx, 12
+mov es:[bx], WORD PTR 13878
+add bx, 210
+mov es:[bx], WORD PTR 13878
+add bx, 4
+mov es:[bx], WORD PTR 13878
+add bx, 46
+mov es:[bx], WORD PTR 13878
+add bx, 10
+mov es:[bx], WORD PTR 13878
+add bx, 34
+mov es:[bx], WORD PTR 13878
+add bx, 4
+mov es:[bx], WORD PTR 13878
+add bx, 12
+mov es:[bx], WORD PTR 13878
+add bx, 210
+mov es:[bx], WORD PTR 13878
+add bx, 4
+mov es:[bx], WORD PTR 13878
+add bx, 46
+mov es:[bx], WORD PTR 13878
+add bx, 10
+mov es:[bx], WORD PTR 13878
+add bx, 34
+mov es:[bx], WORD PTR 13878
+add bx, 4
+mov es:[bx], WORD PTR 13878
+add bx, 12
+mov es:[bx], WORD PTR 13878
+add bx, 210
+mov es:[bx], WORD PTR 13878
+add bx, 4
+mov es:[bx], WORD PTR 13878
+add bx, 46
+mov es:[bx], WORD PTR 13878
+add bx, 10
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 14
+mov es:[bx], WORD PTR 13878
+add bx, 4
+mov es:[bx], WORD PTR 13878
+add bx, 12
+mov es:[bx], WORD PTR 13878
+add bx, 210
+mov es:[bx], WORD PTR 13878
+add bx, 4
+mov es:[bx], WORD PTR 13878
+add bx, 46
+mov es:[bx], WORD PTR 13878
+add bx, 10
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 14
+mov es:[bx], WORD PTR 13878
+add bx, 4
+mov es:[bx], WORD PTR 13878
+add bx, 12
+mov es:[bx], WORD PTR 13878
+add bx, 210
+mov es:[bx], WORD PTR 13878
+add bx, 4
+mov es:[bx], WORD PTR 13878
+add bx, 14
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 14
+mov es:[bx], WORD PTR 13878
+add bx, 32
+mov es:[bx], WORD PTR 13878
+add bx, 12
+mov es:[bx], WORD PTR 13878
+add bx, 4
+mov es:[bx], WORD PTR 13878
+add bx, 12
+mov es:[bx], WORD PTR 13878
+add bx, 210
+mov es:[bx], WORD PTR 13878
+add bx, 4
+mov es:[bx], WORD PTR 13878
+add bx, 14
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 14
+mov es:[bx], WORD PTR 13878
+add bx, 32
+mov es:[bx], WORD PTR 13878
+add bx, 12
+mov es:[bx], WORD PTR 13878
+add bx, 4
+mov es:[bx], WORD PTR 13878
+add bx, 12
+mov es:[bx], WORD PTR 13878
+add bx, 210
+mov es:[bx], WORD PTR 13878
+add bx, 4
+mov es:[bx], WORD PTR 13878
+add bx, 12
+mov es:[bx], WORD PTR 13878
+add bx, 22
+mov es:[bx], WORD PTR 13878
+add bx, 12
+mov es:[bx], WORD PTR 13878
+add bx, 32
+mov es:[bx], WORD PTR 13878
+add bx, 12
+mov es:[bx], WORD PTR 13878
+add bx, 4
+mov es:[bx], WORD PTR 13878
+add bx, 12
+mov es:[bx], WORD PTR 13878
+add bx, 210
+mov es:[bx], WORD PTR 13878
+add bx, 4
+mov es:[bx], WORD PTR 13878
+add bx, 12
+mov es:[bx], WORD PTR 13878
+add bx, 22
+mov es:[bx], WORD PTR 13878
+add bx, 12
+mov es:[bx], WORD PTR 13878
+add bx, 32
+mov es:[bx], WORD PTR 13878
+add bx, 12
+mov es:[bx], WORD PTR 13878
+add bx, 4
+mov es:[bx], WORD PTR 13878
+add bx, 12
+mov es:[bx], WORD PTR 13878
+add bx, 210
+mov es:[bx], WORD PTR 13878
+add bx, 4
+mov es:[bx], WORD PTR 13878
+add bx, 12
+mov es:[bx], WORD PTR 13878
+add bx, 22
+mov es:[bx], WORD PTR 13878
+add bx, 12
+mov es:[bx], WORD PTR 13878
+add bx, 32
+mov es:[bx], WORD PTR 13878
+add bx, 12
+mov es:[bx], WORD PTR 13878
+add bx, 4
+mov es:[bx], WORD PTR 13878
+add bx, 12
+mov es:[bx], WORD PTR 13878
+add bx, 210
+mov es:[bx], WORD PTR 13878
+add bx, 4
+mov es:[bx], WORD PTR 13878
+add bx, 12
+mov es:[bx], WORD PTR 13878
+add bx, 22
+mov es:[bx], WORD PTR 13878
+add bx, 12
+mov es:[bx], WORD PTR 13878
+add bx, 32
+mov es:[bx], WORD PTR 13878
+add bx, 12
+mov es:[bx], WORD PTR 13878
+add bx, 4
+mov es:[bx], WORD PTR 13878
+add bx, 12
+mov es:[bx], WORD PTR 13878
+add bx, 210
+mov es:[bx], WORD PTR 13878
+add bx, 4
+mov es:[bx], WORD PTR 13878
+add bx, 12
+mov es:[bx], WORD PTR 13878
+add bx, 22
+mov es:[bx], WORD PTR 13878
+add bx, 14
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 16
+mov es:[bx], WORD PTR 13878
+add bx, 16
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 176
+mov es:[bx], WORD PTR 13878
+add bx, 4
+mov es:[bx], WORD PTR 13878
+add bx, 12
+mov es:[bx], WORD PTR 13878
+add bx, 22
+mov es:[bx], WORD PTR 13878
+add bx, 14
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 16
+mov es:[bx], WORD PTR 13878
+add bx, 16
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 176
+mov es:[bx], WORD PTR 13878
+add bx, 4
+mov es:[bx], WORD PTR 13878
+add bx, 12
+mov es:[bx], WORD PTR 13878
+add bx, 22
 mov es:[bx], WORD PTR 13878
 add bx, 282
 mov es:[bx], WORD PTR 13878
 add bx, 4
 mov es:[bx], WORD PTR 13878
-add bx, 30
+add bx, 12
 mov es:[bx], WORD PTR 13878
-add bx, 4
+add bx, 22
 mov es:[bx], WORD PTR 13878
 add bx, 282
 mov es:[bx], WORD PTR 13878
 add bx, 4
 mov es:[bx], WORD PTR 13878
-add bx, 30
+add bx, 12
 mov es:[bx], WORD PTR 13878
-add bx, 4
+add bx, 22
 mov es:[bx], WORD PTR 13878
 add bx, 282
 mov es:[bx], WORD PTR 13878
 add bx, 4
 mov es:[bx], WORD PTR 13878
-add bx, 30
+add bx, 12
 mov es:[bx], WORD PTR 13878
-add bx, 4
+add bx, 22
 mov es:[bx], WORD PTR 13878
 add bx, 282
 mov es:[bx], WORD PTR 13878
 add bx, 4
 mov es:[bx], WORD PTR 13878
-add bx, 30
+add bx, 12
 mov es:[bx], WORD PTR 13878
-add bx, 4
+add bx, 22
 mov es:[bx], WORD PTR 13878
 add bx, 282
 mov es:[bx], WORD PTR 13878
 add bx, 4
 mov es:[bx], WORD PTR 13878
-add bx, 30
+add bx, 12
 mov es:[bx], WORD PTR 13878
-add bx, 4
+add bx, 22
 mov es:[bx], WORD PTR 13878
 add bx, 282
 mov es:[bx], WORD PTR 13878
 add bx, 4
 mov es:[bx], WORD PTR 13878
-add bx, 30
+add bx, 12
 mov es:[bx], WORD PTR 13878
-add bx, 4
+add bx, 22
 mov es:[bx], WORD PTR 13878
 add bx, 282
 mov es:[bx], WORD PTR 13878
 add bx, 4
 mov es:[bx], WORD PTR 13878
-add bx, 30
+add bx, 12
 mov es:[bx], WORD PTR 13878
-add bx, 4
+add bx, 22
 mov es:[bx], WORD PTR 13878
 add bx, 282
 mov es:[bx], WORD PTR 13878
 add bx, 4
 mov es:[bx], WORD PTR 13878
-add bx, 30
+add bx, 12
 mov es:[bx], WORD PTR 13878
-add bx, 4
+add bx, 22
 mov es:[bx], WORD PTR 13878
 add bx, 282
 mov es:[bx], WORD PTR 13878
 add bx, 4
 mov es:[bx], WORD PTR 13878
-add bx, 30
+add bx, 12
 mov es:[bx], WORD PTR 13878
-add bx, 4
+add bx, 22
 mov es:[bx], WORD PTR 13878
 add bx, 282
 mov es:[bx], WORD PTR 13878
 add bx, 4
 mov es:[bx], WORD PTR 13878
-add bx, 30
+add bx, 12
 mov es:[bx], WORD PTR 13878
-add bx, 4
+add bx, 22
 mov es:[bx], WORD PTR 13878
 add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
 mov es:[bx], WORD PTR 13878
 add bx, 2
 mov es:[bx], WORD PTR 13878
@@ -1271,28 +2231,6 @@ mov es:[bx], WORD PTR 13878
 add bx, 2
 mov es:[bx], WORD PTR 13878
 add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
 mov es:[bx], WORD PTR 13878
 add bx, 2
 mov es:[bx], WORD PTR 13878
@@ -1317,38 +2255,28 @@ mov es:[bx], WORD PTR 13878
 add bx, 2
 mov es:[bx], WORD PTR 13878
 add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
 mov es:[bx], WORD PTR 13878
 add bx, 2
 mov es:[bx], WORD PTR 13878
 add bx, 2
 mov es:[bx], WORD PTR 13878
-add bx, 2
+add bx, 176
 mov es:[bx], WORD PTR 13878
-add bx, 16
+add bx, 4
 mov es:[bx], WORD PTR 13878
-add bx, 2
+add bx, 12
 mov es:[bx], WORD PTR 13878
-add bx, 2
+add bx, 22
 mov es:[bx], WORD PTR 13878
-add bx, 2
+add bx, 14
 mov es:[bx], WORD PTR 13878
 add bx, 2
 mov es:[bx], WORD PTR 13878
 add bx, 2
 mov es:[bx], WORD PTR 13878
 add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 16
 mov es:[bx], WORD PTR 13878
 add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
 mov es:[bx], WORD PTR 13878
 add bx, 2
 mov es:[bx], WORD PTR 13878
@@ -1356,11 +2284,9 @@ add bx, 2
 mov es:[bx], WORD PTR 13878
 add bx, 2
 mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
+add bx, 16
 mov es:[bx], WORD PTR 13878
-add bx, 2
+add bx, 16
 mov es:[bx], WORD PTR 13878
 add bx, 2
 mov es:[bx], WORD PTR 13878
@@ -1375,87 +2301,75 @@ mov es:[bx], WORD PTR 13878
 add bx, 2
 mov es:[bx], WORD PTR 13878
 add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 2
 mov es:[bx], WORD PTR 13878
 add bx, 2
 mov es:[bx], WORD PTR 13878
 add bx, 2
 mov es:[bx], WORD PTR 13878
-add bx, 2
+add bx, 176
 mov es:[bx], WORD PTR 13878
-add bx, 2
+add bx, 4
 mov es:[bx], WORD PTR 13878
-add bx, 2
+add bx, 12
 mov es:[bx], WORD PTR 13878
-add bx, 2
+add bx, 22
 mov es:[bx], WORD PTR 13878
-add bx, 2
+add bx, 12
 mov es:[bx], WORD PTR 13878
-add bx, 2
+add bx, 10
 mov es:[bx], WORD PTR 13878
-add bx, 14
+add bx, 12
 mov es:[bx], WORD PTR 13878
-add bx, 4
+add bx, 10
 mov es:[bx], WORD PTR 13878
-add bx, 30
+add bx, 12
 mov es:[bx], WORD PTR 13878
 add bx, 4
 mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
+add bx, 12
 mov es:[bx], WORD PTR 13878
-add bx, 2
+add bx, 16
 mov es:[bx], WORD PTR 13878
-add bx, 2
+add bx, 12
 mov es:[bx], WORD PTR 13878
-add bx, 2
+add bx, 182
 mov es:[bx], WORD PTR 13878
-add bx, 2
+add bx, 4
 mov es:[bx], WORD PTR 13878
-add bx, 2
+add bx, 12
 mov es:[bx], WORD PTR 13878
-add bx, 2
+add bx, 22
 mov es:[bx], WORD PTR 13878
-add bx, 16
+add bx, 12
 mov es:[bx], WORD PTR 13878
-add bx, 2
+add bx, 10
 mov es:[bx], WORD PTR 13878
-add bx, 2
+add bx, 12
 mov es:[bx], WORD PTR 13878
-add bx, 2
+add bx, 10
 mov es:[bx], WORD PTR 13878
-add bx, 2
+add bx, 12
 mov es:[bx], WORD PTR 13878
-add bx, 2
+add bx, 4
 mov es:[bx], WORD PTR 13878
-add bx, 2
+add bx, 12
 mov es:[bx], WORD PTR 13878
-add bx, 2
+add bx, 16
 mov es:[bx], WORD PTR 13878
-add bx, 2
+add bx, 12
 mov es:[bx], WORD PTR 13878
-add bx, 2
+add bx, 182
 mov es:[bx], WORD PTR 13878
-add bx, 2
+add bx, 4
 mov es:[bx], WORD PTR 13878
-add bx, 2
+add bx, 14
 mov es:[bx], WORD PTR 13878
 add bx, 2
 mov es:[bx], WORD PTR 13878
 add bx, 2
 mov es:[bx], WORD PTR 13878
 add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 16
 mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
 add bx, 2
 mov es:[bx], WORD PTR 13878
 add bx, 2
@@ -1469,8 +2383,6 @@ mov es:[bx], WORD PTR 13878
 add bx, 2
 mov es:[bx], WORD PTR 13878
 add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 2
 mov es:[bx], WORD PTR 13878
 add bx, 2
 mov es:[bx], WORD PTR 13878
@@ -1478,11 +2390,7 @@ add bx, 2
 mov es:[bx], WORD PTR 13878
 add bx, 2
 mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
 add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 2
 mov es:[bx], WORD PTR 13878
 add bx, 2
 mov es:[bx], WORD PTR 13878
@@ -1490,23 +2398,21 @@ add bx, 2
 mov es:[bx], WORD PTR 13878
 add bx, 2
 mov es:[bx], WORD PTR 13878
-add bx, 2
+add bx, 14
 mov es:[bx], WORD PTR 13878
-add bx, 2
+add bx, 4
 mov es:[bx], WORD PTR 13878
-add bx, 16
+add bx, 12
 mov es:[bx], WORD PTR 13878
 add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 2
 mov es:[bx], WORD PTR 13878
-add bx, 2
+add bx, 12
 mov es:[bx], WORD PTR 13878
-add bx, 2
+add bx, 182
 mov es:[bx], WORD PTR 13878
-add bx, 2
+add bx, 4
 mov es:[bx], WORD PTR 13878
-add bx, 2
+add bx, 14
 mov es:[bx], WORD PTR 13878
 add bx, 2
 mov es:[bx], WORD PTR 13878
@@ -1527,10 +2433,6 @@ mov es:[bx], WORD PTR 13878
 add bx, 2
 mov es:[bx], WORD PTR 13878
 add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
 mov es:[bx], WORD PTR 13878
 add bx, 2
 mov es:[bx], WORD PTR 13878
@@ -1538,7 +2440,7 @@ add bx, 2
 mov es:[bx], WORD PTR 13878
 add bx, 2
 mov es:[bx], WORD PTR 13878
-add bx, 2
+add bx, 16
 mov es:[bx], WORD PTR 13878
 add bx, 2
 mov es:[bx], WORD PTR 13878
@@ -1547,23 +2449,21 @@ mov es:[bx], WORD PTR 13878
 add bx, 2
 mov es:[bx], WORD PTR 13878
 add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 30
 mov es:[bx], WORD PTR 13878
 add bx, 4
 mov es:[bx], WORD PTR 13878
 add bx, 12
 mov es:[bx], WORD PTR 13878
-add bx, 22
+add bx, 16
 mov es:[bx], WORD PTR 13878
 add bx, 12
 mov es:[bx], WORD PTR 13878
-add bx, 32
+add bx, 182
 mov es:[bx], WORD PTR 13878
-add bx, 12
+add bx, 4
 mov es:[bx], WORD PTR 13878
+add bx, 90
+mov es:[bx], WORD PTR 13878
 add bx, 4
 mov es:[bx], WORD PTR 13878
 add bx, 12
@@ -1571,42 +2471,40 @@ mov es:[bx], WORD PTR 13878
 add bx, 16
 mov es:[bx], WORD PTR 13878
 add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 14
 mov es:[bx], WORD PTR 13878
-add bx, 12
+add bx, 182
 mov es:[bx], WORD PTR 13878
-add bx, 16
+add bx, 4
 mov es:[bx], WORD PTR 13878
-add bx, 12
+add bx, 90
 mov es:[bx], WORD PTR 13878
 add bx, 4
 mov es:[bx], WORD PTR 13878
 add bx, 12
 mov es:[bx], WORD PTR 13878
-add bx, 32
+add bx, 16
 mov es:[bx], WORD PTR 13878
 add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 22
 mov es:[bx], WORD PTR 13878
-add bx, 12
+add bx, 182
 mov es:[bx], WORD PTR 13878
 add bx, 4
 mov es:[bx], WORD PTR 13878
-add bx, 30
+add bx, 90
 mov es:[bx], WORD PTR 13878
 add bx, 4
 mov es:[bx], WORD PTR 13878
 add bx, 12
 mov es:[bx], WORD PTR 13878
-add bx, 22
+add bx, 16
 mov es:[bx], WORD PTR 13878
 add bx, 12
 mov es:[bx], WORD PTR 13878
-add bx, 32
+add bx, 182
 mov es:[bx], WORD PTR 13878
-add bx, 12
+add bx, 4
+mov es:[bx], WORD PTR 13878
+add bx, 90
 mov es:[bx], WORD PTR 13878
 add bx, 4
 mov es:[bx], WORD PTR 13878
@@ -1616,42 +2514,40 @@ add bx, 16
 mov es:[bx], WORD PTR 13878
 add bx, 12
 mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 12
+add bx, 182
 mov es:[bx], WORD PTR 13878
-add bx, 16
+add bx, 4
 mov es:[bx], WORD PTR 13878
-add bx, 12
+add bx, 90
 mov es:[bx], WORD PTR 13878
 add bx, 4
 mov es:[bx], WORD PTR 13878
 add bx, 12
 mov es:[bx], WORD PTR 13878
-add bx, 32
+add bx, 16
 mov es:[bx], WORD PTR 13878
 add bx, 12
 mov es:[bx], WORD PTR 13878
-add bx, 22
-mov es:[bx], WORD PTR 13878
-add bx, 12
+add bx, 182
 mov es:[bx], WORD PTR 13878
 add bx, 4
 mov es:[bx], WORD PTR 13878
-add bx, 30
+add bx, 90
 mov es:[bx], WORD PTR 13878
 add bx, 4
 mov es:[bx], WORD PTR 13878
 add bx, 12
 mov es:[bx], WORD PTR 13878
-add bx, 22
+add bx, 16
 mov es:[bx], WORD PTR 13878
 add bx, 12
 mov es:[bx], WORD PTR 13878
-add bx, 32
+add bx, 182
 mov es:[bx], WORD PTR 13878
-add bx, 12
+add bx, 4
 mov es:[bx], WORD PTR 13878
+add bx, 90
+mov es:[bx], WORD PTR 13878
 add bx, 4
 mov es:[bx], WORD PTR 13878
 add bx, 12
@@ -1659,42 +2555,40 @@ mov es:[bx], WORD PTR 13878
 add bx, 16
 mov es:[bx], WORD PTR 13878
 add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 14
 mov es:[bx], WORD PTR 13878
-add bx, 12
+add bx, 182
 mov es:[bx], WORD PTR 13878
-add bx, 16
+add bx, 4
 mov es:[bx], WORD PTR 13878
-add bx, 12
+add bx, 90
 mov es:[bx], WORD PTR 13878
 add bx, 4
 mov es:[bx], WORD PTR 13878
 add bx, 12
 mov es:[bx], WORD PTR 13878
-add bx, 32
+add bx, 16
 mov es:[bx], WORD PTR 13878
 add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 22
 mov es:[bx], WORD PTR 13878
-add bx, 12
+add bx, 182
 mov es:[bx], WORD PTR 13878
 add bx, 4
 mov es:[bx], WORD PTR 13878
-add bx, 30
+add bx, 90
 mov es:[bx], WORD PTR 13878
 add bx, 4
 mov es:[bx], WORD PTR 13878
 add bx, 12
 mov es:[bx], WORD PTR 13878
-add bx, 22
+add bx, 16
 mov es:[bx], WORD PTR 13878
 add bx, 12
 mov es:[bx], WORD PTR 13878
-add bx, 32
+add bx, 182
 mov es:[bx], WORD PTR 13878
-add bx, 12
+add bx, 4
+mov es:[bx], WORD PTR 13878
+add bx, 90
 mov es:[bx], WORD PTR 13878
 add bx, 4
 mov es:[bx], WORD PTR 13878
@@ -1704,41 +2598,47 @@ add bx, 16
 mov es:[bx], WORD PTR 13878
 add bx, 12
 mov es:[bx], WORD PTR 13878
+add bx, 182
+mov es:[bx], WORD PTR 13878
+add bx, 4
+mov es:[bx], WORD PTR 13878
 add bx, 14
 mov es:[bx], WORD PTR 13878
-add bx, 12
+add bx, 2
 mov es:[bx], WORD PTR 13878
-add bx, 16
+add bx, 2
 mov es:[bx], WORD PTR 13878
-add bx, 12
+add bx, 2
 mov es:[bx], WORD PTR 13878
-add bx, 4
+add bx, 2
 mov es:[bx], WORD PTR 13878
-add bx, 12
+add bx, 2
 mov es:[bx], WORD PTR 13878
-add bx, 32
+add bx, 2
 mov es:[bx], WORD PTR 13878
-add bx, 12
+add bx, 2
 mov es:[bx], WORD PTR 13878
-add bx, 22
+add bx, 2
 mov es:[bx], WORD PTR 13878
-add bx, 12
+add bx, 2
 mov es:[bx], WORD PTR 13878
-add bx, 4
+add bx, 16
 mov es:[bx], WORD PTR 13878
-add bx, 30
+add bx, 2
 mov es:[bx], WORD PTR 13878
-add bx, 4
+add bx, 2
 mov es:[bx], WORD PTR 13878
-add bx, 12
+add bx, 2
 mov es:[bx], WORD PTR 13878
-add bx, 22
+add bx, 16
 mov es:[bx], WORD PTR 13878
-add bx, 12
+add bx, 2
+mov es:[bx], WORD PTR 13878
+add bx, 2
 mov es:[bx], WORD PTR 13878
-add bx, 32
+add bx, 2
 mov es:[bx], WORD PTR 13878
-add bx, 12
+add bx, 14
 mov es:[bx], WORD PTR 13878
 add bx, 4
 mov es:[bx], WORD PTR 13878
@@ -1748,259 +2648,71 @@ add bx, 16
 mov es:[bx], WORD PTR 13878
 add bx, 12
 mov es:[bx], WORD PTR 13878
-add bx, 14
+add bx, 182
 mov es:[bx], WORD PTR 13878
-add bx, 12
+add bx, 4
 mov es:[bx], WORD PTR 13878
-add bx, 16
+add bx, 14
 mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 32
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 22
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 30
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 22
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 32
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 32
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 22
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 30
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 22
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 32
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 32
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 22
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 30
+add bx, 2
 mov es:[bx], WORD PTR 13878
-add bx, 4
+add bx, 2
 mov es:[bx], WORD PTR 13878
-add bx, 12
+add bx, 2
 mov es:[bx], WORD PTR 13878
-add bx, 22
+add bx, 2
 mov es:[bx], WORD PTR 13878
-add bx, 12
+add bx, 2
 mov es:[bx], WORD PTR 13878
-add bx, 32
+add bx, 2
 mov es:[bx], WORD PTR 13878
-add bx, 12
+add bx, 2
 mov es:[bx], WORD PTR 13878
-add bx, 4
+add bx, 2
 mov es:[bx], WORD PTR 13878
-add bx, 12
+add bx, 2
 mov es:[bx], WORD PTR 13878
 add bx, 16
 mov es:[bx], WORD PTR 13878
-add bx, 12
+add bx, 2
 mov es:[bx], WORD PTR 13878
-add bx, 14
+add bx, 2
 mov es:[bx], WORD PTR 13878
-add bx, 12
+add bx, 2
 mov es:[bx], WORD PTR 13878
 add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 32
-mov es:[bx], WORD PTR 13878
-add bx, 12
 mov es:[bx], WORD PTR 13878
-add bx, 22
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 30
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 22
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 32
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 12
+add bx, 2
 mov es:[bx], WORD PTR 13878
-add bx, 16
+add bx, 2
 mov es:[bx], WORD PTR 13878
-add bx, 12
+add bx, 2
 mov es:[bx], WORD PTR 13878
 add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 12
 mov es:[bx], WORD PTR 13878
 add bx, 4
 mov es:[bx], WORD PTR 13878
 add bx, 12
 mov es:[bx], WORD PTR 13878
-add bx, 32
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 22
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 30
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 22
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 32
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
 add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 14
 mov es:[bx], WORD PTR 13878
 add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 16
 mov es:[bx], WORD PTR 13878
-add bx, 12
+add bx, 182
 mov es:[bx], WORD PTR 13878
 add bx, 4
 mov es:[bx], WORD PTR 13878
 add bx, 12
 mov es:[bx], WORD PTR 13878
-add bx, 32
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
 add bx, 22
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 30
 mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
 add bx, 12
 mov es:[bx], WORD PTR 13878
-add bx, 22
+add bx, 10
 mov es:[bx], WORD PTR 13878
 add bx, 12
 mov es:[bx], WORD PTR 13878
-add bx, 32
+add bx, 10
 mov es:[bx], WORD PTR 13878
 add bx, 12
 mov es:[bx], WORD PTR 13878
@@ -2009,8978 +2721,34 @@ mov es:[bx], WORD PTR 13878
 add bx, 12
 mov es:[bx], WORD PTR 13878
 add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 14
 mov es:[bx], WORD PTR 13878
 add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 16
 mov es:[bx], WORD PTR 13878
-add bx, 12
+add bx, 182
 mov es:[bx], WORD PTR 13878
 add bx, 4
 mov es:[bx], WORD PTR 13878
 add bx, 12
 mov es:[bx], WORD PTR 13878
-add bx, 32
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
 add bx, 22
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 30
 mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
 add bx, 12
 mov es:[bx], WORD PTR 13878
-add bx, 22
+add bx, 10
 mov es:[bx], WORD PTR 13878
 add bx, 12
 mov es:[bx], WORD PTR 13878
-add bx, 32
+add bx, 10
 mov es:[bx], WORD PTR 13878
 add bx, 12
 mov es:[bx], WORD PTR 13878
 add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 14
 mov es:[bx], WORD PTR 13878
 add bx, 12
 mov es:[bx], WORD PTR 13878
 add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 32
 mov es:[bx], WORD PTR 13878
 add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 22
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 30
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 22
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 32
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 32
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 22
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 30
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 22
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 32
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 32
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 22
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 30
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 30
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 30
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 90
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 90
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 30
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 90
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 90
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 30
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 90
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 90
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 30
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 90
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 90
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 30
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 90
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 90
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 30
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 90
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 90
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 30
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 90
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 40
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 40
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 90
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 30
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 90
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 40
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 40
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 90
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 30
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 90
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 40
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 40
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 90
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 30
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 90
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 40
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 40
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 90
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 30
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 40
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 40
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 30
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 40
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 40
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 30
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 22
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 10
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 10
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 40
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 40
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 10
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 10
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 22
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 30
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 22
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 10
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 10
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 40
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 40
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 10
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 10
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 22
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 30
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 22
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 10
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 40
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 40
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 10
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 22
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 30
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 22
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 10
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 40
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 40
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 10
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 22
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 30
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 10
-mov es:[bx], WORD PTR 13878
-add bx, 34
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 34
-mov es:[bx], WORD PTR 13878
-add bx, 10
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 30
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 10
-mov es:[bx], WORD PTR 13878
-add bx, 34
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 34
-mov es:[bx], WORD PTR 13878
-add bx, 10
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 30
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 46
-mov es:[bx], WORD PTR 13878
-add bx, 10
-mov es:[bx], WORD PTR 13878
-add bx, 34
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 70
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 34
-mov es:[bx], WORD PTR 13878
-add bx, 10
-mov es:[bx], WORD PTR 13878
-add bx, 46
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 30
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 46
-mov es:[bx], WORD PTR 13878
-add bx, 10
-mov es:[bx], WORD PTR 13878
-add bx, 34
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 70
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 34
-mov es:[bx], WORD PTR 13878
-add bx, 10
-mov es:[bx], WORD PTR 13878
-add bx, 46
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 30
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 46
-mov es:[bx], WORD PTR 13878
-add bx, 10
-mov es:[bx], WORD PTR 13878
-add bx, 34
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 70
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 34
-mov es:[bx], WORD PTR 13878
-add bx, 10
-mov es:[bx], WORD PTR 13878
-add bx, 46
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 30
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 46
-mov es:[bx], WORD PTR 13878
-add bx, 10
-mov es:[bx], WORD PTR 13878
-add bx, 34
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 70
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 34
-mov es:[bx], WORD PTR 13878
-add bx, 10
-mov es:[bx], WORD PTR 13878
-add bx, 46
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 30
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 46
-mov es:[bx], WORD PTR 13878
-add bx, 10
-mov es:[bx], WORD PTR 13878
-add bx, 34
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 70
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 34
-mov es:[bx], WORD PTR 13878
-add bx, 10
-mov es:[bx], WORD PTR 13878
-add bx, 46
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 30
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 46
-mov es:[bx], WORD PTR 13878
-add bx, 10
-mov es:[bx], WORD PTR 13878
-add bx, 34
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 70
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 34
-mov es:[bx], WORD PTR 13878
-add bx, 10
-mov es:[bx], WORD PTR 13878
-add bx, 46
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 30
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 46
-mov es:[bx], WORD PTR 13878
-add bx, 10
-mov es:[bx], WORD PTR 13878
-add bx, 34
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 70
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 34
-mov es:[bx], WORD PTR 13878
-add bx, 10
-mov es:[bx], WORD PTR 13878
-add bx, 46
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 30
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 46
-mov es:[bx], WORD PTR 13878
-add bx, 10
-mov es:[bx], WORD PTR 13878
-add bx, 34
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 70
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 34
-mov es:[bx], WORD PTR 13878
-add bx, 10
-mov es:[bx], WORD PTR 13878
-add bx, 46
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 30
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 46
-mov es:[bx], WORD PTR 13878
-add bx, 10
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 70
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 10
-mov es:[bx], WORD PTR 13878
-add bx, 46
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 30
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 46
-mov es:[bx], WORD PTR 13878
-add bx, 10
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 70
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 10
-mov es:[bx], WORD PTR 13878
-add bx, 46
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 30
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 32
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 70
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 32
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 30
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 32
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 70
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 32
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 30
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 22
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 32
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 70
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 32
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 22
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 30
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 22
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 32
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 70
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 32
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 22
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 30
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 22
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 32
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 70
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 32
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 22
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 30
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 22
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 32
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 70
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 32
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 22
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 30
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 22
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 22
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 30
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 22
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 22
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 30
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 22
-mov es:[bx], WORD PTR 13878
-add bx, 214
-mov es:[bx], WORD PTR 13878
-add bx, 22
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 30
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 22
-mov es:[bx], WORD PTR 13878
-add bx, 214
-mov es:[bx], WORD PTR 13878
-add bx, 22
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 30
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 22
-mov es:[bx], WORD PTR 13878
-add bx, 214
-mov es:[bx], WORD PTR 13878
-add bx, 22
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 30
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 22
-mov es:[bx], WORD PTR 13878
-add bx, 214
-mov es:[bx], WORD PTR 13878
-add bx, 22
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 30
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 22
-mov es:[bx], WORD PTR 13878
-add bx, 214
-mov es:[bx], WORD PTR 13878
-add bx, 22
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 30
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 22
-mov es:[bx], WORD PTR 13878
-add bx, 214
-mov es:[bx], WORD PTR 13878
-add bx, 22
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 30
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 22
-mov es:[bx], WORD PTR 13878
-add bx, 214
-mov es:[bx], WORD PTR 13878
-add bx, 22
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 30
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 22
-mov es:[bx], WORD PTR 13878
-add bx, 214
-mov es:[bx], WORD PTR 13878
-add bx, 22
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 30
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 22
-mov es:[bx], WORD PTR 13878
-add bx, 214
-mov es:[bx], WORD PTR 13878
-add bx, 22
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 30
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 22
-mov es:[bx], WORD PTR 13878
-add bx, 214
-mov es:[bx], WORD PTR 13878
-add bx, 22
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 30
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 22
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 22
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 30
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 22
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 22
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 30
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 22
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 10
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 10
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 10
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 10
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 22
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 30
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 22
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 10
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 10
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 10
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 10
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 22
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 30
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 30
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 30
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 90
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 90
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 30
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 90
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 90
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 30
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 90
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 90
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 30
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 90
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 90
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 30
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 90
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 90
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 30
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 90
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 90
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 30
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 90
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 90
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 30
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 90
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 90
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 30
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 90
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 90
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 30
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 90
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 90
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 30
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 30
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 30
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 22
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 10
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 10
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 10
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 10
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 22
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 30
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 22
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 10
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 10
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 10
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 10
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 22
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 30
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 22
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 10
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 10
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 10
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 10
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 22
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 30
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 22
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 10
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 10
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 10
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 10
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 22
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 30
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 30
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 30
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 90
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 90
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 30
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 90
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 90
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 30
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 90
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 90
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 30
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 90
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 90
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 30
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 90
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 90
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 30
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 90
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 90
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 30
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 90
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 90
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 30
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 90
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 90
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 30
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 90
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 90
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 30
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 90
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 90
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 30
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 30
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 30
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 22
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 10
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 10
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 10
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 10
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 22
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 30
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 22
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 10
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 10
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 10
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 10
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 22
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 30
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 22
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 22
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 30
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 22
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 22
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 30
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 22
-mov es:[bx], WORD PTR 13878
-add bx, 214
-mov es:[bx], WORD PTR 13878
-add bx, 22
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 30
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 22
-mov es:[bx], WORD PTR 13878
-add bx, 214
-mov es:[bx], WORD PTR 13878
-add bx, 22
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 30
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 22
-mov es:[bx], WORD PTR 13878
-add bx, 214
-mov es:[bx], WORD PTR 13878
-add bx, 22
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 30
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 22
-mov es:[bx], WORD PTR 13878
-add bx, 214
-mov es:[bx], WORD PTR 13878
-add bx, 22
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 30
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 22
-mov es:[bx], WORD PTR 13878
-add bx, 214
-mov es:[bx], WORD PTR 13878
-add bx, 22
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 30
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 22
-mov es:[bx], WORD PTR 13878
-add bx, 214
-mov es:[bx], WORD PTR 13878
-add bx, 22
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 30
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 22
-mov es:[bx], WORD PTR 13878
-add bx, 214
-mov es:[bx], WORD PTR 13878
-add bx, 22
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 30
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 22
-mov es:[bx], WORD PTR 13878
-add bx, 214
-mov es:[bx], WORD PTR 13878
-add bx, 22
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 30
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 22
-mov es:[bx], WORD PTR 13878
-add bx, 214
-mov es:[bx], WORD PTR 13878
-add bx, 22
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 30
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 22
-mov es:[bx], WORD PTR 13878
-add bx, 214
-mov es:[bx], WORD PTR 13878
-add bx, 22
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 30
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 22
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 22
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 30
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 22
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 22
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 30
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 22
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 32
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 70
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 32
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 22
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 30
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 22
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 32
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 70
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 32
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 22
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 30
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 22
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 32
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 70
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 32
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 22
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 30
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 22
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 32
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 70
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 32
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 22
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 30
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 32
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 70
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 32
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 30
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 32
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 70
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 32
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 30
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 46
-mov es:[bx], WORD PTR 13878
-add bx, 10
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 70
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 10
-mov es:[bx], WORD PTR 13878
-add bx, 46
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 30
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 46
-mov es:[bx], WORD PTR 13878
-add bx, 10
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 70
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 10
-mov es:[bx], WORD PTR 13878
-add bx, 46
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 30
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 46
-mov es:[bx], WORD PTR 13878
-add bx, 10
-mov es:[bx], WORD PTR 13878
-add bx, 34
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 70
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 34
-mov es:[bx], WORD PTR 13878
-add bx, 10
-mov es:[bx], WORD PTR 13878
-add bx, 46
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 30
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 46
-mov es:[bx], WORD PTR 13878
-add bx, 10
-mov es:[bx], WORD PTR 13878
-add bx, 34
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 70
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 34
-mov es:[bx], WORD PTR 13878
-add bx, 10
-mov es:[bx], WORD PTR 13878
-add bx, 46
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 30
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 46
-mov es:[bx], WORD PTR 13878
-add bx, 10
-mov es:[bx], WORD PTR 13878
-add bx, 34
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 70
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 34
-mov es:[bx], WORD PTR 13878
-add bx, 10
-mov es:[bx], WORD PTR 13878
-add bx, 46
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 30
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 46
-mov es:[bx], WORD PTR 13878
-add bx, 10
-mov es:[bx], WORD PTR 13878
-add bx, 34
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 70
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 34
-mov es:[bx], WORD PTR 13878
-add bx, 10
-mov es:[bx], WORD PTR 13878
-add bx, 46
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 30
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 46
-mov es:[bx], WORD PTR 13878
-add bx, 10
-mov es:[bx], WORD PTR 13878
-add bx, 34
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 70
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 34
-mov es:[bx], WORD PTR 13878
-add bx, 10
-mov es:[bx], WORD PTR 13878
-add bx, 46
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 30
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 46
-mov es:[bx], WORD PTR 13878
-add bx, 10
-mov es:[bx], WORD PTR 13878
-add bx, 34
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 70
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 34
-mov es:[bx], WORD PTR 13878
-add bx, 10
-mov es:[bx], WORD PTR 13878
-add bx, 46
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 30
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 46
-mov es:[bx], WORD PTR 13878
-add bx, 10
-mov es:[bx], WORD PTR 13878
-add bx, 34
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 70
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 34
-mov es:[bx], WORD PTR 13878
-add bx, 10
-mov es:[bx], WORD PTR 13878
-add bx, 46
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 30
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 46
-mov es:[bx], WORD PTR 13878
-add bx, 10
-mov es:[bx], WORD PTR 13878
-add bx, 34
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 70
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 34
-mov es:[bx], WORD PTR 13878
-add bx, 10
-mov es:[bx], WORD PTR 13878
-add bx, 46
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 30
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 10
-mov es:[bx], WORD PTR 13878
-add bx, 34
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 34
-mov es:[bx], WORD PTR 13878
-add bx, 10
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 30
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 10
-mov es:[bx], WORD PTR 13878
-add bx, 34
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 34
-mov es:[bx], WORD PTR 13878
-add bx, 10
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 30
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 22
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 10
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 40
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 40
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 10
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 22
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 30
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 22
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 10
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 40
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 40
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 10
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 22
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 30
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 22
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 10
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 10
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 40
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 40
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 10
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 10
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 22
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 30
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 22
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 10
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 10
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 40
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 40
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 10
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 10
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 22
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 30
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 40
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 40
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 30
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 40
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 40
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 30
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 90
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 40
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 40
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 90
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 30
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 90
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 40
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 40
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 90
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 30
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 90
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 40
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 40
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 90
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 30
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 90
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 40
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 40
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 90
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 30
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 90
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 90
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 30
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 90
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 90
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 30
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 90
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 90
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 30
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 90
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 90
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 30
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 90
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 90
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 30
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 90
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 90
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 30
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 30
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 30
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 22
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 32
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 32
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 22
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 30
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 22
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 32
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 32
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 22
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 30
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 22
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 32
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 32
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 22
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 30
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 22
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 32
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 32
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 22
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 30
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 22
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 32
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 32
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 22
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 30
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 22
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 32
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 32
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 22
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 30
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 22
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 32
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 32
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 22
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 30
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 22
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 32
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 32
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 22
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 30
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 22
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 32
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 32
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 22
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 30
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 22
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 32
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 32
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 22
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 30
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 22
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 32
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 32
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 22
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 30
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 22
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 32
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 32
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 22
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 30
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 22
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 32
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 32
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 22
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 30
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 22
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 32
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 32
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 22
-mov es:[bx], WORD PTR 13878
-add bx, 12
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 30
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 30
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 16
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 14
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 30
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 282
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 30
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 282
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 30
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 282
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 30
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 282
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 30
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 282
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 30
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 282
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 30
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 282
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 30
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 282
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 30
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 282
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 30
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 282
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 30
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 30
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 4
-mov es:[bx], WORD PTR 13878
-add bx, 30
-mov es:[bx], WORD PTR 13878
-add bx, 290
-mov es:[bx], WORD PTR 13878
-add bx, 30
-mov es:[bx], WORD PTR 13878
-add bx, 290
-mov es:[bx], WORD PTR 13878
-add bx, 32
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 34
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
-mov es:[bx], WORD PTR 13878
-add bx, 2
 mov es:[bx], WORD PTR 13878
 pop bx
 pop ax
