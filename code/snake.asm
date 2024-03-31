@@ -14,6 +14,21 @@ DATA ENDS
 
 CODE SEGMENT PARA 'CODE'
 
+rand PROC FAR USES ax, bx, dx
+ASSUME CS:CODE, DS:DATA
+    mov ah, 0
+    int 1ah
+
+    mov ax, dx 
+    mov dx, 0
+    mov bx, 64000
+    div bx
+
+    mov fruit_pos, dl
+
+    RET
+rand ENDP
+
 
 main proc FAR
 ASSUME CS:CODE, DS:DATA
@@ -26,13 +41,20 @@ ASSUME CS:CODE, DS:DATA
    mov ax, 0a000h; video memory begins at segment 0a000h, actual address is this X 16
    mov es, ax ; es pointer now holds page offset
   
-   mov player_pos, 0 ; do not trust the data segment, it is sneaky
+   mov player_pos, 32020 ; do not trust the data segment, it is sneaky
    mov direction_offset, 1
    mov time_passed, 0
    mov snake_length, 1
    mov snake_length_holder, 1
-   mov fruit_pos, 32000
+   mov fruit_pos, 34000
    mov tail_pos, 0
+
+   mov bx, fruit_pos
+   mov es:[bx], BYTE PTR 40h
+   mov es:[bx + 1], BYTE PTR 40h
+   mov es:[bx + 320], BYTE PTR 40h
+   mov es:[bx + 321],BYTE PTR 40h
+
    
    GETTIME:
    
@@ -49,10 +71,9 @@ ASSUME CS:CODE, DS:DATA
    SKIP:
    cmp dl, time_passed ;dl contains 1/100 of second time
    je GETTIME
-   
+
    mov time_passed, dl
    
-  
    cmp al, 77h ;w
    je w
    cmp al, 73h ;s
@@ -64,18 +85,34 @@ ASSUME CS:CODE, DS:DATA
    cmp al, 27 ;esc
    je done
    jmp MOVEPLAYER
+
+   done:
+   
+   mov ax, 3    ;reset to text mode
+   int 10h
+   
+   mov ah, 4ch  ;exit to DOS
+   int 21h
    
    w:
-   mov direction_offset, -320
+   cmp direction_offset, 640 ; won't allow the snake to move 180 degrees
+   je MOVEPLAYER
+   mov direction_offset, -640
    jmp MOVEPLAYER
    s:
-   mov direction_offset, 320
+   cmp direction_offset, -640
+   je MOVEPLAYER
+   mov direction_offset, 640
    jmp MOVEPLAYER
    a:
-   mov direction_offset, -1
+   cmp direction_offset, 2
+   je MOVEPLAYER
+   mov direction_offset, -2
    jmp MOVEPLAYER
    d:
-   mov direction_offset, 1
+   cmp direction_offset, -2
+   je MOVEPLAYER
+   mov direction_offset, 2
    jmp MOVEPLAYER
    
    MOVEPLAYER:
@@ -85,6 +122,9 @@ ASSUME CS:CODE, DS:DATA
    add bx, direction_offset
    mov player_pos, bx
    mov es:[bx], BYTE PTR 32h
+   mov es:[bx + 1], BYTE PTR 32h
+   mov es:[bx + 320], BYTE PTR 32h
+   mov es:[bx + 321],BYTE PTR 32h
    
    push direction_offset
    mov cx, snake_length
@@ -97,19 +137,16 @@ ASSUME CS:CODE, DS:DATA
    cmp cx, 0
    jne L2
    mov es:[bx], BYTE PTR 0h
+   mov es:[bx + 1], BYTE PTR 0h
+   mov es:[bx + 320], BYTE PTR 0h
+   mov es:[bx + 321],BYTE PTR 0h
    
    
    jmp GETTIME
    
       
    ; exit on keystroke
-   done:
-   
-   mov ax, 3    ;reset to text mode
-   int 10h
-   
-   mov ah, 4ch  ;exit to DOS
-   int 21h
+
       
 main endp
 end main
