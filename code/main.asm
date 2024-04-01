@@ -6,7 +6,7 @@ DATA SEGMENT PARA 'DATA'
 time_passed DB ?
 direction_offset DW ?
 snake_length DW ?
-snake DW 2000 DUP(?)
+snake DW 2000 DUP(0)
 fruit_pos DW ?
 wrap_x DW ?
 wrap_x_val DW ?
@@ -32,14 +32,14 @@ ASSUME CS:CODE, DS:DATA
    mov direction_offset, 320
    mov snake_length, 3
    mov fruit_pos, 32050
-   mov wrap_x, 159
-   mov wrap_x_val, 0
-   mov wrap_y_val, 1
-   mov wrap_y, 99
+   ; mov wrap_x, 1
+   ; mov wrap_x_val, 0
+   ; mov wrap_y_val, 1
+   ; mov wrap_y, 1
    
    
    mov cx, 0
-   mov ax, 32160 ; start pos
+   mov ax, 31839; start pos
    
    INITIALSNAKE:
    mov bx, cx
@@ -81,7 +81,7 @@ ASSUME CS:CODE, DS:DATA
    je a
    cmp al, 64h ;d
    je d
-   cmp al, 27 ;esc
+   cmp al, 65h ;e
    je done_intermediate
    jmp move_player_intermediate
    
@@ -165,39 +165,39 @@ ASSUME CS:CODE, DS:DATA
    
    
    
-   mov bx, wrap_y_val
-   add wrap_y, bx
-   mov bx, wrap_x_val
-   add wrap_x, bx
+   ; mov bx, wrap_y_val
+   ; add wrap_y, bx
+   ; mov bx, wrap_x_val
+   ; add wrap_x, bx
    
-   cmp wrap_y, -1
-   jne skip_ww
-   add snake[0], 63680
-   mov wrap_y, 199
-   jmp done_check
-   skip_ww:
+   ; cmp wrap_y, 0
+   ; jne skip_ww
+   ; add snake[0], 63680
+   ; mov wrap_y, 199
+   ; jmp done_check
+   ; skip_ww:
    
-   cmp wrap_y, 200
-   jne skip_ws
-   sub snake[0], 63680
-   mov wrap_y, 0
-   jmp done_check
-   skip_ws:
+   ; cmp wrap_y, 201
+   ; jne skip_ws
+   ; sub snake[0], 63680
+   ; mov wrap_y, 2
+   ; jmp done_check
+   ; skip_ws:
    
-   cmp wrap_x, -1
-   jne skip_wa
-   add snake[0], 320
-   mov wrap_x, 319
-   jmp done_check
-   skip_wa:
+   ; cmp wrap_x, 0
+   ; jne skip_wa
+   ; add snake[0], 319
+   ; mov wrap_x, 319
+   ; jmp done_check
+   ; skip_wa:
    
-   cmp wrap_x, 320
-   jne skip_wd
-   sub snake[0], 320
-   mov wrap_x, 0
-   skip_wd:
+   ; cmp wrap_x, 321
+   ; jne skip_wd
+   ; sub snake[0], 319
+   ; mov wrap_x, 2
+   ; skip_wd:
    
-   done_check:
+   ;done_check:
    
    mov ax, snake[0]
    add ax, direction_offset
@@ -229,6 +229,10 @@ ASSUME CS:CODE, DS:DATA
    
    mov snake[bx], ax
 
+   mov bx, fruit_pos
+   mov es:[bx], BYTE PTR 32h
+   
+   add fruit_pos, 350
    no_fruit:
    
    
@@ -241,11 +245,16 @@ ASSUME CS:CODE, DS:DATA
    done:
    
    mov ax, 0
+   mov bx, 0
+   mov cx, 0
+   mov dx, 0
+   mov ah, 1
    int 16h
-   
+
    mov ax, 3    ;reset to text mode
    int 10h
    
+   mov ax, 0
    mov ah, 4ch  ;exit to DOS
    int 21h
       
