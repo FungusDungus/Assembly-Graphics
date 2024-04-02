@@ -17,6 +17,7 @@ mov es, ax
 mov bp, sp
 
 ; use stack for x and y pos of player
+; x pos - y pos - x dir - y dir
 mov ax, WORD PTR 63
 push ax
 mov ax, WORD PTR 4
@@ -52,7 +53,7 @@ mov time_passed, dl
 
 mov ah, 1
 int 16h
-jz processdirection
+jz processdirectionintermediate0
 mov ah, 0
 int 16h
 
@@ -61,18 +62,100 @@ je w
 cmp al, 73h ;s
 je s
 cmp al, 61h ;a
-je a
+je aintermediate
 cmp al, 64h ;d
-je d
+je dintermediate
 cmp al, 27 ;esc
-je done
+je doneintermediate
+
+processdirectionintermediate0:
+jmp processdirectionintermediate
+
+aintermediate:
+jmp a
 
 w:
-s:
-a:
-d:
-
+mov bx, WORD PTR [bp - 2]
+mov cx, WORD PTR [bp - 4]
+dec cx
+call probepixel
+cmp es:[bx], BYTE PTR 54
+je processdirectionintermediate
+mov bx, WORD PTR [bp - 2]
+mov cx, WORD PTR [bp - 4]
+dec cx
+add bx, 7
+call probepixel
+cmp es:[bx], BYTE PTR 54
+je processdirectionintermediate
+mov WORD PTR [bp - 6], 0
+mov WORD PTR [bp - 8], -1
 jmp processdirection
+
+s:
+mov bx, WORD PTR [bp - 2]
+mov cx, WORD PTR [bp - 4]
+add cx, 8
+call probepixel
+cmp es:[bx], BYTE PTR 54
+je processdirectionintermediate
+mov bx, WORD PTR [bp - 2]
+mov cx, WORD PTR [bp - 4]
+add cx, 8
+add bx, 7
+call probepixel
+cmp es:[bx], BYTE PTR 54
+je processdirectionintermediate
+mov WORD PTR [bp - 6], 0
+mov WORD PTR [bp - 8], 1
+jmp processdirectionintermediate
+
+dintermediate:
+jmp d
+
+processdirectionintermediate:
+jmp processdirection
+
+doneintermediate:
+jmp done
+
+a:
+mov bx, WORD PTR [bp - 2]
+mov cx, WORD PTR [bp - 4]
+dec bx
+call probepixel
+cmp es:[bx], BYTE PTR 54
+je processdirection
+mov bx, WORD PTR [bp - 2]
+mov cx, WORD PTR [bp - 4]
+dec bx
+add cx, 7
+call probepixel
+cmp es:[bx], BYTE PTR 54
+je processdirection
+mov WORD PTR [bp - 6], -1
+mov WORD PTR [bp - 8], 0
+jmp processdirection
+
+d:
+mov bx, WORD PTR [bp - 2]
+mov cx, WORD PTR [bp - 4]
+add bx, 8
+call probepixel
+cmp es:[bx], BYTE PTR 54
+je processdirection
+mov bx, WORD PTR [bp - 2]
+mov cx, WORD PTR [bp - 4]
+add bx, 8
+add cx, 7
+call probepixel
+cmp es:[bx], BYTE PTR 54
+je processdirection
+mov WORD PTR [bp - 6], 1
+mov WORD PTR [bp - 8], 0
+jmp processdirection
+
+
 done:
 
 mov ax, 3    ;reset to text mode
@@ -84,14 +167,27 @@ int 21h
 
 processdirection:
 
+
+
+
 mov bx, WORD PTR [bp - 2]
 mov cx, WORD PTR [bp - 4]
 call pm00
+
+; mov dx, 0
+; mov bx, WORD PTR [bp - 2]
+; mov cx, WORD PTR [bp - 4]
+; add bx, 8
+; call probepixel
+; cmp dx, 1
+; je skipadd
+
 
 mov bx, WORD PTR [bp - 6]
 add WORD PTR [bp - 2], bx
 mov bx, WORD PTR [bp - 8]
 add WORD PTR [bp - 4], bx
+skipadd:
 mov bx, WORD PTR [bp - 2]
 mov cx, WORD PTR [bp - 4]
 call pm00
@@ -101,6 +197,12 @@ jmp gameloop
 
 
 
+probepixel:
+mov ax, cx
+mov cx, 320
+mul cx
+add bx, ax
+ret
 
 
 
