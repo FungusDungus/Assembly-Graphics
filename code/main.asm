@@ -22,10 +22,11 @@ ASSUME CS:CODE, DS:DATA
     int 1ah
 
     mov ax, dx 
+    mul snake_length
     mov dx, 0
     mov bx, 32000
-    shl bx, 1
     div bx
+    shl dx, 1
 
     mov fruit_pos, dx
 
@@ -45,9 +46,9 @@ ASSUME CS:CODE, DS:DATA
    mov es, ax ; es pointer now holds page offset
   
    mov time_passed, 0
-   mov direction_offset, -640
-   mov snake_length, 20
-   mov fruit_pos, 32000
+   mov direction_offset, -320
+   mov snake_length, 4
+   mov fruit_pos, 32050
    ; mov wrap_x, 1
    ; mov wrap_x_val, 0
    ; mov wrap_y_val, 1
@@ -55,7 +56,7 @@ ASSUME CS:CODE, DS:DATA
    
    
    mov cx, 0
-   mov ax, 31838; start pos
+   mov ax, 32800; start pos
    
    INITIALSNAKE:
    mov bx, cx
@@ -63,9 +64,6 @@ ASSUME CS:CODE, DS:DATA
    mov snake[bx], ax
    mov bx, snake[bx]
    mov es:[bx], BYTE PTR 32h
-   mov es:[bx + 1], BYTE PTR 32h
-   mov es:[bx + 320], BYTE PTR 32h
-   mov es:[bx + 321], BYTE PTR 32h
 
    sub ax, direction_offset
    inc cx
@@ -112,38 +110,38 @@ ASSUME CS:CODE, DS:DATA
    skip_done:
   
    w:
-   cmp direction_offset, 640
+   cmp direction_offset, 320
    je move_player_intermediate
    mov wrap_x_val, 0
    mov wrap_y_val, -1
-   mov direction_offset, -640
+   mov direction_offset, -320
    jmp move_player_intermediate
    
    s:
-   cmp direction_offset, -640
+   cmp direction_offset, -320
    je MOVEPLAYER  
    mov wrap_x_val, 0
    mov wrap_y_val, 1
-   mov direction_offset, 640
+   mov direction_offset, 320
    jmp MOVEPLAYER
   
    
    a:
-   cmp direction_offset, 2
+   cmp direction_offset, 1
    je MOVEPLAYER
    mov wrap_x_val, -1
    mov wrap_y_val, 0
-   mov direction_offset, -2
+   mov direction_offset, -1
    jmp MOVEPLAYER
    
    
    
    d:
-   cmp direction_offset, -2
+   cmp direction_offset, -1
    je MOVEPLAYER 
    mov wrap_x_val, 1
    mov wrap_y_val, 0
-   mov direction_offset, 2
+   mov direction_offset, 1
    jmp MOVEPLAYER
    
    
@@ -160,9 +158,6 @@ ASSUME CS:CODE, DS:DATA
    
    mov bx, snake[bx]
    mov es:[bx], BYTE PTR 0h ; clear end
-   mov es:[bx + 1], BYTE PTR 0h
-   mov es:[bx + 320], BYTE PTR 0h
-   mov es:[bx + 321], BYTE PTR 0h
    
    mov cx, snake_length
    dec cx
@@ -230,17 +225,11 @@ ASSUME CS:CODE, DS:DATA
    cmp al, 32h ; collision detection
    je shutdown
    mov es:[bx], BYTE PTR 32h
-   mov es:[bx + 1], BYTE PTR 32h
-   mov es:[bx + 320], BYTE PTR 32h
-   mov es:[bx + 321], BYTE PTR 32h
    
    
    
    mov bx, fruit_pos
    mov es:[bx], BYTE PTR 5h
-   mov es:[bx + 1], BYTE PTR 5h
-   mov es:[bx + 320], BYTE PTR 5h
-   mov es:[bx + 321], BYTE PTR 5h
    
    
    
@@ -261,9 +250,6 @@ ASSUME CS:CODE, DS:DATA
 
    mov bx, fruit_pos
    mov es:[bx], BYTE PTR 32h
-   mov es:[bx + 1], BYTE PTR 32h
-   mov es:[bx + 320], BYTE PTR 32h
-   mov es:[bx + 321], BYTE PTR 32h
    
    CALL rand_fruit_pos
    ; add fruit_pos, 640
