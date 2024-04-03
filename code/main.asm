@@ -6,61 +6,61 @@
 time_passed DB ?
 .code
 
-mov ah, 0   ;
-mov al, 13h ; set video mode to mode 13 (320 x 200 x 256)
-int 10h     ;
+mov ah, 0   ; 
+mov al, 13h ; set video mode to mode 13 (320 x 200 x 256) using interrupt 10h, mode 0, code 13h, colors are palletized (0 - 255 are indexes to a pallette of colors)
+int 10h     ; 
 
 
-mov ax, 0a000h
+mov ax, 0a000h ; in dos for vga modes the beginning of video memory is at segment 0a000h
 mov es, ax
 
-mov bp, sp
+mov bp, sp ; point bp to the base of the stack, memory address of the stack grow downwards
 
 ; use stack for x and y pos of player
 ; x pos - y pos - x dir - y dir - animation info
-mov ax, WORD PTR 63
+mov ax, WORD PTR 63 ; initial x pos
 push ax
-mov ax, WORD PTR 4
+mov ax, WORD PTR 4 ; initial y pos
 push ax
-mov ax, WORD PTR 2
+mov ax, WORD PTR 2 ; initial x offset (moving right 2 pixels per frame)
 push ax
-mov ax, WORD PTR 0
+mov ax, WORD PTR 0 ; initial y offset (no y movement)
 push ax
-mov ax, WORD PTR 1
+mov ax, WORD PTR 1 ; initial animation state (state 1, pacman mouth half open)
 push ax
 mov ax, 0
 
 
 ; initialize data variables
-mov time_passed, 0
+mov time_passed, 0 ; stores the previous time to sync frames with system time
 
-mov bx, 59
-mov cx, 0
-call pmarena
+mov bx, 59 ; x
+mov cx, 0 ; y
+call pmarena ; show arena at x, y
 
-mov bx, WORD PTR [bp - 2]
-mov cx, WORD PTR [bp - 4]
-call pm00
+mov bx, WORD PTR [bp - 2] ; x, recall pacman x pos and y pos are on the stack
+mov cx, WORD PTR [bp - 4] ; y
+call pm00 ; show pacman at x,y
 
 mov bx, 0
 mov cx, 0
 
 
 gameloop:
-mov ah, 2ch
-int 21h
+mov ah, 2ch ; code for system time 
+int 21h ; interrupt for DOS API, with code for system time returns system time 1/100 of a second in dl
 
 
 
-cmp dl, time_passed
-je gameloop
-mov time_passed, dl
+cmp dl, time_passed ; compare to see if 1/100 of a second has passed at the minimum
+je gameloop ; if not keep looping
+mov time_passed, dl ; move previous time to time_passed
 
-mov ah, 1
-int 16h
-jz processdirectionintermediate0
-mov ah, 0
-int 16h
+mov ah, 1 ; code to check for the presence of a key in the keyboard buffer
+int 16h ; interrupt 16h with above code (ah = 1), ZF touched
+jz processdirectionintermediate0 ; allows pacman to move without input from player (keeps moving in last direction)
+mov ah, 0 ; code to wait for a key in the buffer
+int 16h   ; interrupt 16h with above code (ah = 0), al receives ascii code of a key read
 
 cmp al, 77h ;w
 je w
@@ -73,28 +73,57 @@ je dintermediate
 cmp al, 27 ;esc
 je doneintermediate
 
-processdirectionintermediate0:
+processdirectionintermediate0: ; intermediate jumps are littered across the code, unfortunately jumos with comparisons have limited range so we must use intermediate jumps
 jmp processdirectionintermediate
 
 aintermediate:
 jmp a
 
+
+; Pacman coordinate rundown:
+; Pacman size (8 x 8 pixels)
+;
+;  @###
+;  ####
+;  ####
+;
+; @ is x,y coordinate
+;
+; The below section with labels w s a d works as following:
+; If the key is pressed check to see if pacman can move in that direction by probing two pixels along the edge just outside of pacman in the direction he wants to move
+; If any pixel is the color blue pacman cannot move in that direction, so we jump away and do not set the direction to the direction corresponding to the key press
+;
+; For example if I tap w the following is checked:
+;
+;  |    |
+;  |O  O|
+;   #### 
+;   ####
+;   ####
+;
+; | corresponds to a wall which would have the color code 54
+; O corresponds to pixels checked, since both are clear pacman can change direction and move upwards (if he was already moving upwards the player notices nothing)
+; This is why it is hard to maneuver the pacman, it is not a lag issue but rather a timing issue where you have to either preinput to guarantee the move (which has weird interaction
+; with the current way we read the key, seems to be "delayed"), or you have to input exactly on the turn to change direction, sort of like in the actual game (which has slightly more
+; leniency). Pacman moves at 2 pixels per frame so every 4 frames pacman moves one pacman distance.
+;
+; Note: probe pixel returns in bx the memory offset from es from bx,cx (x, y)
 w:
-mov bx, WORD PTR [bp - 2]
-mov cx, WORD PTR [bp - 4]
-dec cx
-call probepixel
-cmp es:[bx], BYTE PTR 54
+mov bx, WORD PTR [bp - 2]; x 
+mov cx, WORD PTR [bp - 4]; y
+dec cx ; first pixel on edge ("top left O")
+call probepixel ; registers not preserved
+cmp es:[bx], BYTE PTR 54 ; 54 = blue color of arena in indexed form
 je processdirectionintermediate
 mov bx, WORD PTR [bp - 2]
 mov cx, WORD PTR [bp - 4]
-dec cx
-add bx, 7
+dec cx     ;-} up by 1
+add bx, 7  ;-} right by 7 = "top right O"
 call probepixel
 cmp es:[bx], BYTE PTR 54
 je processdirectionintermediate
-mov WORD PTR [bp - 6], 0
-mov WORD PTR [bp - 8], -2
+mov WORD PTR [bp - 6], 0 ; direction set for x
+mov WORD PTR [bp - 8], -2 ; direction set for y
 jmp processdirection
 
 s:
@@ -160,8 +189,9 @@ mov WORD PTR [bp - 6], 2
 mov WORD PTR [bp - 8], 0
 jmp processdirection
 
+;--------------------------------------------------------------------------------------
 
-done:
+done: ; jumped to when you press esc, otherwise never reached
 
 mov ax, 3    ;reset to text mode
 int 10h
@@ -175,18 +205,20 @@ processdirection:
 
 
 
-mov bx, WORD PTR [bp - 2]
-mov cx, WORD PTR [bp - 4]
+mov bx, WORD PTR [bp - 2] ; x before direction added
+mov cx, WORD PTR [bp - 4] ; y before directon added
 
 
-call erase
+call erase ; erases previous pacman before new pacman is drawn
 
-
-cmp WORD PTR [bp - 6], 2
+; The below section works as following:
+; In a similar fashion to the previous large section we check a single pixel in the direction we are traveling and see if it is the color code of the wall, 54
+; If so we do not add the direction to the current position of pacman
+cmp WORD PTR [bp - 6], 2 ; moving right (bp - 6 is x direction "offset" (how much is added to the pacman pos each frame if it applies), bp - 8 is y direction "offset")
 jne skipxright
 mov bx, WORD PTR [bp - 2]
 mov cx, WORD PTR [bp - 4]
-add bx, 8
+add bx, 8 ; pixel in direction of travel
 call probepixel
 cmp es:[bx], BYTE PTR 54
 je skipadd
@@ -226,6 +258,9 @@ je skipadd
 jmp addd
 skipydown:
 
+;--------------------------------------------------------------------------------------
+
+; if applicable (direction is clear) add (x,y) direction offset to pacman coordinates (x,y)
 addd:
 mov bx, WORD PTR [bp - 6]
 add WORD PTR [bp - 2], bx
@@ -236,6 +271,17 @@ mov bx, WORD PTR [bp - 2]
 mov cx, WORD PTR [bp - 4]
 
 
+
+
+; The following code controls the animation
+; It works in the following way:
+; Each direction has a set of 2 sprites for the animation along with a third one universally used (full yellow circle) since that has no "direction"
+; The sprites are simply rotated around to match the direction
+; Using the current (x,y) direction offset and the current animation counter we call the correct sprite rendering function
+; ie: direction: w, animation counter: 2 --> call pm12 with (x,y) pos of pacman as "parameters" in (bx,cx)
+;
+; codes: 0->d, 1->w, 2->a, 3->s
+;
 
 cmp WORD PTR [bp - 6], 2
 je dispatchright
@@ -367,12 +413,14 @@ write_pm32:
 call pm32
 mov WORD PTR [bp - 10], 0
 jmp gameloop
+; end of "main" (gameloop)
+
+;--------------------------------------------------------------------------------------
 
 
 
 
-
-
+; translates x,y coordinates into offset in memory from es (y  * 320 + x) 0 indexed coordinates, 320 is width of screen
 probepixel:
 mov ax, cx
 mov cx, 320
@@ -381,20 +429,26 @@ add bx, ax
 ret
 
 
+; All of the following functions are a poorly optimized mess (everything below this until the end of the file), 
+; each one responsible from drawing a single sprite on the screen whether it be the arena or a specific animation frame
+; They all have the same format as commented below for "erase"
 
 erase:
 mov ax, @code
-mov ds, ax
+mov ds, ax ; data is inline in code (see under "ret")
 
+; could be replaced with probe pixel
 mov ax, cx
 mov cx, 320
 mul cx
 add bx, ax
 mov di, bx
 
-mov si, offset erasedata
-mov cl, 8
 
+mov si, offset erasedata
+mov cl, 8 ; counter used to know when to swap lines
+
+; copy data to video memory
 drawerase: 
 mov al, ds:[si]
 mov es:[di], al
@@ -405,17 +459,18 @@ dec cl
 cmp cl, 0
 je erasenewline
 continueerase:
-cmp dx, 64
+cmp dx, 64 ; 8 x 8 sprites so 64 total writes in memory
 jb drawerase
 
 jmp skiperase
 erasenewline:
-mov cl, 8
-add di, 312 ; 320 - width
+mov cl, 8 ; counter used to know when to swap lines reset to 8 when line is swapped
+add di, 312 ; 320 - width, go to next line
 jmp continueerase
 skiperase:
-ret
+ret ; return to caller
 
+; data, each byte corresponds to a pixel
 erasedata:
 DB 0
 DB 0,0,0,0,0,0,0,0
