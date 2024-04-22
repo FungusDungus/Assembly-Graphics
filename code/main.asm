@@ -51,6 +51,7 @@ int 16h
 cmp al, 77h
 jne s
 
+
 s:
 cmp al, 73h
 jne a
@@ -114,6 +115,8 @@ coordtranslate endp
 ----------------
 
 detectcollision proc
+
+
 
 detectcollision endp
 
