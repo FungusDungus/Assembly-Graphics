@@ -102,19 +102,28 @@ int 21h
 ;  Procedures  ;
 ;--------------;
 
+; uses and preserved: bx -> x val, ax -> y val | returns: cx -> pixel offset from 0a000h segment
 coordtranslate proc
+push bx
+push ax
 mov cl, 6
 shl ax, cl
 add bx, ax
 mov cl, 2
 shl ax, cl
 add bx, ax
+mov cx, bx
+pop ax
+pop bx
 ret
 coordtranslate endp
 
 ----------------
 
 detectcollision proc
+
+mov bx, pacmanx
+mov ax, pacmany
 
 
 
