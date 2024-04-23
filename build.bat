@@ -3,7 +3,7 @@ if %1==snake (goto :snake) else (echo "Improper use of build. Use ^"build pacman
 
 :pacman
 config -set cycles=100000
-cd Code
+cd code
 masm pacman.asm;
 link pacman;
 cd ..
@@ -11,7 +11,7 @@ config -set cycles=3000
 exit /b 0
 
 :snake
-cd Code
+cd code
 masm snake.asm:
 link snake
 cd ..
