@@ -1,4 +1,4 @@
 cd Code
-masm main.asm;
-link main;
+masm snake.asm;
+link snake;
 cd ..

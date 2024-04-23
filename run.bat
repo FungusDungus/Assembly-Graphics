@@ -1,3 +1,3 @@
 cd Code
-main
+snake
 cd ..
