@@ -1,6 +1,6 @@
 # Assembly-Graphics
 
-Game made for a game contest in our computer architecture and assembly programming class
+Game made for a class contest
 
 How to run:
 
@@ -20,7 +20,5 @@ How to run:
 
 
 Known issues:
-Snake  -> termination is unpredictable: you may have to restart DOSBox in case of a bad termination.
-
-Pacman -> being chased by a ghost in very close proximity while eating a pellet causes the ghost sprite to be partially kept in memory, due to the pellet eating involving memory movs rather than xors causing the
+Pacman -> Being chased by a ghost in very close proximity while eating a pellet causes the ghost sprite to be partially kept in memory, due to the pellet eating involving memory movs rather than xors causing the
 xor on the mov to redraw the ghost rather than removing it.
