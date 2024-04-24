@@ -4,6 +4,14 @@
 .stack 1024
 .data
 
+;------------------;
+;  Sprite Bitmaps  ;
+;------------------;
+
+; Generated using a python script (gsc.py) that converts a png image in 256 color 320x200 indexed form into a bitmap.
+; The script can also "compile" sprites by generating an include file with a macro that moves immediate values to their
+; correct video memory locations, offset by a position provided to the macro.
+
 arena DB 55,55,55,55,55,55,55,55,55,55,55,55,55,55,55,55,55,55,55,55,55,55,55,55,55,55,55,55,55,55,55,55,55,55,55,55,55,55,55,55,55,55,55,55,55,55,55,55,55,55,55
 DB 55,55,55,55,55,0,0,0,0,0,0,0,0,55,55,55,55,55,55,55,55,55,55,55,55,55,55,55,55,55,55,55,55,55,55,55,55,55,55,55,55,55,55,55,55,55,55,55,55,55
 DB 55,55,55,55,55,55,55,55,55,55,55,55,55,55,55,55,55,55,55,55,55,55,55,55,55,55,55,55,55,55,55,55,55,55,55,0,0,0,0,0,0,0,0,55,55,55,55,55,55,55
@@ -906,45 +914,124 @@ DB 62,62,62,62,62,62,62,62
 DB 62,62,62,62,62,62,62,62
 DB 62,0,62,62,0,62,62
 
+;-------;
+;  EQU  ;
+;-------;
 
-
-rightpacs          DW offset circle, offset right1, offset right2
-uppacs             DW offset circle, offset up1, offset up2
-leftpacs           DW offset circle, offset left1, offset left2
-downpacs           DW offset circle, offset down1, offset down2
-
-ghostoffset        DW offset ghost
-colorindex         DW -1
-ghostspos          DW 63,4,247,4,63,188,247,188
-ghostsposcpy       DW 63,4,247,4,63,188,247,188
-ghostcolors        DB 61,42,52,40
-ghostdirections    DB 0,0,0,0
-erasemode          DB 0
-eraseoffset        DW offset erase
-pelletcount        EQU 356
-pelletcolor        EQU 44
-arenacolor         EQU 55
-arenaoffset        DW offset arena
+; constants
 pacmanxval         EQU 155
 pacmanyval         EQU 60
 pacmandirval       EQU 0
-pacmanx            DW pacmanxval
-pacmany            DW pacmanyval
-pacmandir          DW pacmandirval; 0 right, counterclockwise until 3
-pacmanspeed        DW 2
-pacaniframec       DW 0
-pacaniframe        DW offset circle
-score              DW 0
-mess             DW 0
 
-elapsed DB 0
+pelletcount        EQU 356
+pelletcolor        EQU 44
+
+arenacolor         EQU 55
+
+
+; ghost related data
+mess               DW 0                           ; a flag that indicates whether or not to "mess" with the ghost movement (gives player a chance to win)
+ghostoffset        DW offset ghost                ; giving a name to the offset so it can be used as a macro "parameter"
+colorindex         DW -1                          ; simulataneously a flag and also an index that tells which color to assign to which ghost in the ghost loop
+ghostspos          DW 63,4,247,4,63,188,247,188   ; an array that holds the positions of the ghosts in this manner: [x,y,x,y,x,y,x,y]
+ghostsposcpy       DW 63,4,247,4,63,188,247,188   ; a copy for resetting the game
+ghostcolors        DB 61,42,52,40                 ; ghost colors
+ghostdirections    DB 0,0,0,0                     ; ghost directions (initial values have no impact since path is immediately recalculated)                       
+
+; pacman related data
+pacmanx            DW pacmanxval                  ; stores pacmanx pos
+pacmany            DW pacmanyval                  ; stores pacman y pos
+pacmandir          DW pacmandirval                ; 0 right, 1 up, 2 left, 3 down
+pacmanspeed        DW 2                           ; pixels/update
+pacaniframec       DW 0                           ; cycles between 0 1 and 2, dictates only the "state" of the animation not the direction
+pacaniframe        DW offset circle               ; offset of the bitmap of the current pacman sprite on screen
+
+
+
+; arrays containing offsets to bitmaps for the pacman animation
+rightpacs          DW offset circle, offset right1, offset right2       
+uppacs             DW offset circle, offset up1, offset up2             
+leftpacs           DW offset circle, offset left1, offset left2         
+downpacs           DW offset circle, offset down1, offset down2   
+
+; other data
+erasemode          DB 0                           ; if set to 1 overwrites the video memory rather than xoring it when drawsprite is called
+eraseoffset        DW offset erase                ; giving a name to the offset so it can be used as a macro "parameter"
+arenaoffset        DW offset arena                ; giving a name to the offset so it can be used as a macro "parameter"
+score              DW 0                           ; a counter that resets the game once every pellet has been consumed
+keystore           DB 0                           ; holds the users last key pressed at any point in time so it can be fed to the gameloop when it comes time for an update
+elapsed            DB 0                           ; contians the 1/100 of a second value of the system time last checked to see if it changed
 
 .code
+
+jmp begin
+
+;--------------;
+;  Procedures  ;
+;--------------;
+
+; Converts x y coordinates into an offset (y * 320 + x) 
+; uses and accepts not preserved: bx -> x val, ax -> y val | returns: cx -> pixel offset from 0a000h segment
+coordtranslate proc
+mov cl, 6
+shl ax, cl
+add bx, ax
+mov cl, 2
+shl ax, cl
+add bx, ax
+ret
+coordtranslate endp
+
+; Writes a sprite to video memory
+; uses and accepts not preserved: bx -> start pos, ax -> width, bp -> height, dx -> sprite offset in data | uses not preserved: ch
+drawsprite proc
+
+mov di, bx
+mov si, dx
+mov bx, 320
+mov dx, ax
+sub bx, dx
+draw:
+mov ch, ds:[si]
+cmp colorindex, -1
+je skp0
+cmp ch, 62
+jne skp0
+push bx
+mov bx, colorindex
+mov ch, ghostcolors[bx]
+pop bx
+skp0:
+cmp erasemode, 1
+je skp
+xor ch, es:[di]
+skp:
+mov es:[di], ch
+inc si
+inc di
+dec ax
+cmp ax, 0
+je newline
+jmp draw
+
+newline:
+mov ax, dx
+dec bp
+add di, bx
+cmp bp, 0
+je skip
+jmp draw
+skip:
+
+ret
+drawsprite endp
 
 ;----------;
 ;  Macros  ;
 ;----------;
 
+; sets pacaniframe to the correct frame based on the offset of the array containing, in which the offset
+; of the sprite is stored and retrieved with pacaniframec (cyclic counter)
 setframedata macro name
 mov ax, pacaniframec
 shl ax, 1
@@ -954,6 +1041,7 @@ mov ax, ds:[bx]
 mov pacaniframe, ax
 endm
 
+; probes a byte in video memory for a color, leaves the handling of the result of the comparison to the following code
 checkgen macro x, y ,yoffs, xoffs, color
 mov bx, x
 mov ax, y
@@ -963,6 +1051,7 @@ call coordtranslate
 cmp es:[bx], BYTE PTR color
 endm
 
+; macro to load parameters for the drawsprite function
 calldraw macro x, y, width, height, nameoff
 mov bx, x
 mov ax, y
@@ -972,26 +1061,36 @@ mov bp, height
 mov dx, nameoff
 call drawsprite
 endm
-; CODE STARTS HERE
 
+; ---------------------------------------------------------------------------------------------  CODE STARTS HERE  ---------------------------------------------------------------------------------------------;  
+
+begin:
+
+; initialize data segment
 mov ax, @data
 mov ds, ax
 
+; set video mode to mode 13 (320 x 200 x 256) using interrupt 10h, mode 0, code 13h, colors are palletized (0 - 255 are indexes to a pallette of colors)
 mov ah, 0
 mov al, 13h
 int 10h
 
+; initialize extra segment to contain segment 0a000h, the beginning of video memory for mode 13h
 mov ax, 0a000h
 mov es, ax
 
+; setup of a fresh game
 gamebegin:
+
 calldraw 59 0 200 200 arenaoffset
 calldraw pacmanx pacmany 8 8 pacaniframe
 
+
+; draws ghosts at their initial position
 mov si, 0
 mov colorindex, 0
-gstinitlp:
 
+gstinitlp:
 push si
 calldraw ghostspos[si] ghostspos[si+2] 8 8 ghostoffset
 pop si
@@ -999,29 +1098,71 @@ add si, 4
 inc colorindex
 cmp si, 16
 jne gstinitlp
+
 mov colorindex, -1
 
+
+; loop
 gameloop:
-mov ah, 2ch
-int 21h
-cmp dl, elapsed
-je gameloop
-mov elapsed, dl
 
 ;---------------;
 ;  Key Reading  ;
 ;---------------;
 
-mov ah, 1
-int 16h
-jz spriteprocessinter
-mov ah, 0
-int 16h
+
+mov ah, 1         ; code to check for the presence of a key in the keyboard buffer
+int 16h           ; interrupt 16h with above code (ah = 1), ZF touched
+jz skipstore      ; no key in buffer
+mov ah, 0         ; code to wait for a key in the buffer
+int 16h           ; interrupt 16h with above code (ah = 0), al receives ascii code of a key read
+mov keystore, al  ; store latest key for next update
+skipstore:
+mov ah, 2ch       ; code for system time
+int 21h           ; interrupt for DOS API, with code for system time returns system time 1/100 of a second in dl
+cmp dl, elapsed   ; checks if the time changed
+je gameloop       ; if no change, don't continue
+mov elapsed, dl   ; if change, update elapsed to new 1/100 of a second value
 
 
 ;------------------;
 ;  Key Processing  ;
 ;------------------;
+
+
+
+mov al, keystore
+
+; Pacman coordinate rundown:
+; Pacman size (8 x 8 pixels)
+;
+; Scaled down representation of pacman:
+; 
+;  @###
+;  ####
+;  ####
+;  ####
+;
+; @ is top left block; x,y coordinate is top left pixel of that block
+;
+; The below section with labels w s a d works as following:
+; If the key is pressed check to see if pacman can move in that direction by probing two pixels along the edge just outside of pacman in the direction he wants to move
+; If any pixel is the color blue pacman cannot move in that direction, so we jump away and do not set the direction to the direction corresponding to the key press
+;
+; For example if I tap w the following is checked:
+;
+;  |    |
+;  |O  O|
+;   #### 
+;   ####
+;   ####
+;   ####
+;
+; | corresponds to a wall which would have the color code 55
+; O corresponds the block checked, imagine the pacman scaled fully to see which actual pixels are checked (only 2 in total are checked)
+; since both are clear pacman can change direction and move upwards (if he was already moving upwards the player notices nothing)
+; Pacman moves at 2 pixels per frame so every 4 frames pacman moves one pacman distance.
+
+; the following code implements the pacman collision detection to prevent changing directions unless direction is clear
 
 ; w
 cmp al, 77h
@@ -1088,13 +1229,20 @@ int 21h
 ;---------------------;
 spriteprocess:
 
-calldraw pacmanx pacmany 8 8 pacaniframe
+; Pacman
 
+calldraw pacmanx pacmany 8 8 pacaniframe ; erase the current pacman
+
+; cycles pacaniframec 0,1,2,0,1,2,0.....
 inc pacaniframec
 cmp pacaniframec, 2
 jbe under
 mov pacaniframec, 0
 under:
+
+; The below section works as following:
+; In a similar fashion to the previous large section we check a single pixel in the direction we are traveling and see if it is the color code of the wall, 55
+; If so we do not add the direction to the current position of pacman
 
 cmp pacmandir, 0
 je right
@@ -1143,6 +1291,7 @@ je skipadd
 mov bx, 0
 mov ax, pacmanspeed
 
+; pacman is safe to move in direction it is currently traveling
 ad:
 add bx, pacmanx
 add ax, pacmany
@@ -1151,13 +1300,19 @@ mov pacmany, ax
 
 skipadd:
 
+; note that the pacman has not been redrawn yet, this is to detect the presence of a pellet on top of the pacman since they are the same color
+
+; Ghosts
 
 mov si, 0
-mov colorindex, 0
+mov colorindex, 0 ; colorindex >= 0 is a flag to use color value in ghostcolors array indexed by colorindex, within drawsprite
 
 
+; loops through each ghost
 ghostlp:
-push bx
+
+; checks to see if the player is close enough to the current ghost for the game to reset
+push bx ; restored later
 mov bx, pacmanx
 sub bx, ghostspos[si]
 cmp bx, 0
@@ -1179,6 +1334,7 @@ jmp reset
 alive:
 
 
+; gives the ghosts some capacity to make "mistakes"
 mov mess, 0
 push ax
 push cx
@@ -1194,25 +1350,44 @@ pop cx
 pop ax
 pop dx
 
+
+; ghost decision making, each block denotes a different direction check
+
+; set to whatever direction is last processed in the case that no moves are "good" for the ghost (all moves move away from the player)
 mov dx, -1
 
+
+; attempting to go up
+
+; prevents jiggling
 mov bx, colorindex
 cmp ghostdirections[bx], 3
 je nxt0
+; collision check, identical to how pacman detects collisions
 checkgen ghostspos[si] ghostspos[si+2] 0 -1 arenacolor
 je nxt0
 checkgen ghostspos[si] ghostspos[si+2] 7 -1 arenacolor
 je nxt0
+; no collision
 mov dx, 1
+; compares ghost position to pacman position
+; comparison depends on desired direction
 mov bx, pacmany
 cmp ghostspos[si+2], bx
 jbe nxt0
+; move is a good move, now check if ghost move has been "messed" with
 cmp mess, 1
 je nxt0
+; move is good and we are not "messed" with, go ahead and change ghost direction
 mov bx, colorindex
 mov ghostdirections[bx], 1
-jmp skpcx
+; worse case scenario we fall back on legal move dx, to prevent illegal moves, if we have a better move
+; we skip the code where dx is assumed to be the ghost move
+jmp skpdx
 nxt0:
+
+
+; attempting to go down
 
 mov bx, colorindex
 cmp ghostdirections[bx], 1
@@ -1229,8 +1404,11 @@ cmp mess, 1
 je nxt1
 mov bx, colorindex
 mov ghostdirections[bx], 3
-jmp skpcx
+jmp skpdx
 nxt1:
+
+
+; attempting to go left
 
 mov bx, colorindex
 cmp ghostdirections[bx], 0
@@ -1247,8 +1425,11 @@ cmp mess, 1
 je nxt2
 mov bx, colorindex
 mov ghostdirections[bx], 2
-jmp skpcx
+jmp skpdx
 nxt2:
+
+
+; attempting to go right
 
 mov bx, colorindex
 cmp ghostdirections[bx], 2
@@ -1265,18 +1446,24 @@ cmp mess, 1
 je nxt3
 mov bx, colorindex
 mov ghostdirections[bx], 0
-jmp skpcx
+jmp skpdx
 nxt3:
 
+; falling back on dx as a legal move
 cmp dx, -1
-je skpcx
+je skpdx
 mov bx, colorindex
 mov ghostdirections[bx], dl
 
-skpcx:
+; skpdx is jumped to when we the ghost has a better move than the fallback
+skpdx:
+
+; erase previous sprite of current ghost
 push si
 calldraw ghostspos[si] ghostspos[si+2] 8 8 ghostoffset
 pop si
+
+; based on ghost direction move ghost
 mov bx, colorindex
 cmp ghostdirections[bx], 0
 jne gstnx0
@@ -1295,44 +1482,52 @@ jne gstnx3
 add ghostspos[si+2], 2
 gstnx3:
 
-pop bx
+pop bx ; finally restored
+
+; draw the ghost at the new position
 push si
 calldraw ghostspos[si] ghostspos[si+2] 8 8 ghostoffset
 pop si
+
+; loop variables
 add si, 4
 inc colorindex
 cmp si, 16
 jne ghostlpinter
 
-jmp skplp
+jmp skplp ; skips the intermediate jump setup that allows the loop to happen (big loop, comparison jump cannot make it far enough)
 
-ghostlpinter:
-jmp ghostlp
+;--------------;
+ghostlpinter:  ;
+jmp ghostlp    ;
+;--------------;
 
 skplp:
-mov colorindex, -1
+mov colorindex, -1 ; reset the flag to indicate to drawsprite not to use ghostcolors array in combination with colorindex
 
+; Pellets
 
-checkgen pacmanx pacmany 4 4 pelletcolor
+checkgen pacmanx pacmany 4 4 pelletcolor ; check if pacman is on top of a pellet
 jne nxt
-mov erasemode, 1
-calldraw pacmanx pacmany 8 8 eraseoffset
-mov erasemode, 0
+mov erasemode, 1                         ; tells drawsprite to overwrite rather than xor
+calldraw pacmanx pacmany 8 8 eraseoffset ; we are in between pacman drawing currently, this will erase the pellet since the pacman isn't drawn yet
+mov erasemode, 0                         ; reset the flag
 inc score
-cmp score, pelletcount
+cmp score, pelletcount                   ; once all pellets are consumed reset the game
 je reset
 nxt:
 
 
+calldraw pacmanx pacmany 8 8 pacaniframe ; finally we draw pacman
+jmp gameloop                             ; end of gameloop
 
-
-calldraw pacmanx pacmany 8 8 pacaniframe
-jmp gameloop
 
 reset:
+; clears the video memory
 mov ax, 13h
 int 10h
 
+; loop to reset ghost positions using ghostsposcpy (copy of the ghosts intial positions)
 mov bx,0
 cpy:
 mov ax, ghostsposcpy[bx]
@@ -1341,76 +1536,17 @@ inc bx
 cmp bx, 16
 jne cpy
 
+; manually reset ghostdirections since it is a small array
 mov ghostdirections[0], 0
 mov ghostdirections[1], 0
 mov ghostdirections[2], 0
 mov ghostdirections[3], 0
 
+mov score, 0                              ; reset score
+mov pacmanx, pacmanxval                   ; reset pacmanx position
+mov pacmany, pacmanyval                   ; reset pacmany position
+mov pacmandir, pacmandirval               ; reset pacman direction
 
-
-
-mov score, 0
-mov pacmanx, pacmanxval
-mov pacmany, pacmanyval
-mov pacmandir, pacmandirval
-jmp gamebegin
-;--------------;
-;  Procedures  ;
-;--------------;
-
-; uses not preserved: bx -> x val, ax -> y val | returns: cx -> pixel offset from 0a000h segment
-coordtranslate proc
-mov cl, 6
-shl ax, cl
-add bx, ax
-mov cl, 2
-shl ax, cl
-add bx, ax
-ret
-coordtranslate endp
-
-;
-; bx: start pos, ax: width, bp: height, dx: sprite offset in data
-drawsprite proc
-
-mov di, bx
-mov si, dx
-mov bx, 320
-mov dx, ax
-sub bx, dx
-draw:
-mov ch, ds:[si]
-cmp colorindex, -1
-je skp0
-cmp ch, 62
-jne skp0
-push bx
-mov bx, colorindex
-mov ch, ghostcolors[bx]
-pop bx
-skp0:
-cmp erasemode, 1
-je skp
-xor ch, es:[di]
-skp:
-mov es:[di], ch
-inc si
-inc di
-dec ax
-cmp ax, 0
-je newline
-jmp draw
-
-newline:
-mov ax, dx
-dec bp
-add di, bx
-cmp bp, 0
-je skip
-jmp draw
-skip:
-
-ret
-drawsprite endp
+jmp gamebegin                             ; ready to reset the game, jump back to gamebegin
 
 END
