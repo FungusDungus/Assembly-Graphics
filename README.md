@@ -8,7 +8,7 @@ How to run:
 
    https://www.dosbox.com/download.php?main=1
 
-2. Download the code as a zipped folder, then extract the folder and copy the filepath
+2. Download the code as a zip, then extract the folder and copy the filepath
    
 3. Open dosbox and use commands:
    
