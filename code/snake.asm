@@ -1,4 +1,3 @@
-INCLUDE pacman.inc
 .model flat,stdcall
 .stack 4096
 
@@ -17,7 +16,7 @@ DATA ENDS
 CODE SEGMENT PARA 'CODE'
 
 rand_fruit_pos PROC FAR USES ax, bx, dx
-ASSUME CS:CODE, DS:DATA
+ASSUME CS:CODE,DS:DATA
     mov ah, 0
     int 1ah
 
