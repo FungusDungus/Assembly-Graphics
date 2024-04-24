@@ -13,8 +13,8 @@ goto :done
 
 :snake
 cd code
-masm snake.asm:
-link snake
+masm snake.asm;
+link snake;
 cd ..
 goto :done
 

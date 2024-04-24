@@ -67,7 +67,7 @@ def process(i):
                     output = output[:-1]
                     output += "\n"
                     output += "DB "
-        output = output[:-1]
+        output = output[1:-1]
         file.write(output)
     return output
     
