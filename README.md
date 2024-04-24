@@ -18,7 +18,3 @@ How to run:
 
 4. Use build and run scripts to build and run the programs (build snake, build pacman, run snake, run pacman)
 
-
-Known issues:
-Pacman -> Being chased by a ghost in very close proximity while eating a pellet causes the ghost sprite to be partially kept in memory, due to the pellet eating involving memory movs rather than xors causing the
-xor on the mov to redraw the ghost rather than removing it.
