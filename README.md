@@ -1,28 +1,18 @@
 # Assembly-Graphics
 Computer Architecture and Assembly Programming -> Game Contest
 
+How to run:
 
-How to setup your workspace:
-1. Download DOSBox using the following link: https://www.dosbox.com/download.php?main=1
+1.Download and install DOS-Box using the following link:
 
-2. Clone this repository and copy the path
+https://www.dosbox.com/download.php?main=1
 
-3. Open DOSBox Options (should be on the device)
+2.Open dosbox and type "mount c "filepath"" FILEPATH: path to extracted folder
+  then type "c:"
 
-4. At the very bottom add under [autoexec] the following
-   
-   mount c "YOUR_PATH_TO_THE_REPOSITORY"
-   
-   c:
-   
-   set PATH=%PATH%;C:\8086\
-  
-5. Use build batch script to compile and link
+4. Use build and run scripts to build and run the programs (build snake, build pacman, run snake, run pacman)
 
-## List of potential games
 
-1. Frogger/crossy road ish game
-2. Pac-Man
-3. Space invaders
-4. Snake
-5. Pong
+Known issues:
+Snake  -> termination is unpredictable: you may have to restart DOSBox in case of a bad termination.
+Pacman -> being chased by a ghost in very close proximity while eating a pellet causes the ghost sprite to be partially kept in memory, due to the pellet eating involving memory movs rather than xors causing the xor on the mov to redraw the ghost rather than removing it.
