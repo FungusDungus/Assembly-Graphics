@@ -1,5 +1,6 @@
 # Assembly-Graphics
-Computer Architecture and Assembly Programming -> Game Contest
+
+Game made for a game contest in our computer architecture and assembly programming class
 
 How to run:
 
