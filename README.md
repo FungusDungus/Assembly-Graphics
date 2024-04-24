@@ -4,7 +4,7 @@ Game made for a class contest
 
 How to run:
 
-1. Download and install DOS-Box using the following link:
+1. Download and install DOSBox using the following link:
 
    https://www.dosbox.com/download.php?main=1
 
