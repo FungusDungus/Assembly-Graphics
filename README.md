@@ -12,6 +12,7 @@ How to run:
 3. Open dosbox and use commands:
    
    "mount c %filepath%"
+   
    "c:"
 
 4. Use build and run scripts to build and run the programs (build snake, build pacman, run snake, run pacman)
