@@ -19,7 +19,7 @@ cd ..
 goto :done
 
 :error
-echo "Improper use of build. Use ^"build pacman^" or ^"build snake^""
+echo Improper use of build. Use "build pacman" or "build snake"
 goto :done
 
 :done
