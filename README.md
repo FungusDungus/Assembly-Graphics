@@ -1,6 +1,6 @@
 # Assembly-Graphics
 
-Game made for a class contest
+Games made for a class contest
 
 How to run:
 
