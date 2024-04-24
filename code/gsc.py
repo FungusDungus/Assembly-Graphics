@@ -22,32 +22,11 @@ def read(i):
         
         previous_pixel = pixels[0,0]
         string_output = ""
-        # cxcount = 1
-        # loop_index = 0
         for y in range(height):
             for x in range(int(width/2)):
+            
                 pixelright = pixels[x*2 + 1, y] 
                 pixelleft = pixels[x*2, y]
-                
-                # if pixelright == previous_pixel and previous_pixel != 0:
-                    # cxcount+=1
-                    # continue
-                # else:
-                    # if previous_pixel != 0 and cxcount > 3:
-                        # file.write("mov cx, " + str(cxcount) + "\n")
-                        # file.write("L" + str(loop_index) + ":\n")
-                        # file.write("mov es:[bx], WORD PTR " + str(previous_pixel + previous_pixel * 2**8) + "\n")
-                        # file.write("add bx, 2\n")
-                        # file.write("loop " + "L" + str(loop_index))
-                        # loop_index += 1
-          
-                    # previous_pixel = pixelright
-                    # cxcount = 1
-                    
-                    
-                
-                
-                
                 
                 if pixels[x*2 + 1, y] == 0 and pixels[x*2, y] == 0:
                     add_buffer += 2
@@ -75,25 +54,21 @@ def process(i):
     pixels = i.load()
     width, height = i.size
     new_line = 320 - width # no ragged sprites
+    linelength = 50
     
     output = ""
     with open("dump.txt", 'w') as file:
-        output += "DB "
-        file.write("DB ")
         for y in range(height):
             for x in range(width):
-                
-                output += str(pixels[x,y])
-                file.write(str(pixels[x,y]))
-                if x % 50 != 0:
+                if x % linelength != 0:
+                    output += str(pixels[x,y])
                     output += ","
-                    file.write(",")
                 else:
+                    output = output[:-1]
                     output += "\n"
-                    file.write("\n")
                     output += "DB "
-                    file.write("DB ")
-           
+        output = output[:-1]
+        file.write(output)
     return output
     
 def main():
