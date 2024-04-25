@@ -1300,7 +1300,27 @@ mov pacmany, ax
 
 skipadd:
 
-; note that the pacman has not been redrawn yet, this is to detect the presence of a pellet on top of the pacman since they are the same color
+; Pellets
+
+checkgen pacmanx pacmany 4 4 pelletcolor ; check if pacman is on top of a pellet
+jne nxt
+mov erasemode, 1                         ; tells drawsprite to overwrite rather than xor
+calldraw pacmanx pacmany 8 8 eraseoffset ; we are in between pacman drawing currently, this will erase the pellet since the pacman isn't drawn yet
+mov erasemode, 0                         ; reset the flag
+inc score
+cmp score, pelletcount                   ; once all pellets are consumed reset the game
+je resetinter
+
+jmp nxt 
+
+;------------;
+resetinter:  ;
+jmp reset    ;
+;------------;
+
+nxt:
+
+calldraw pacmanx pacmany 8 8 pacaniframe ; redraw pacman at new position
 
 ; Ghosts
 
@@ -1493,7 +1513,7 @@ pop si
 add si, 4
 inc colorindex
 cmp si, 16
-jne ghostlpinter
+jne ghostlpinter ; end of ghost loop
 
 jmp skplp ; skips the intermediate jump setup that allows the loop to happen (big loop, comparison jump cannot make it far enough)
 
@@ -1505,21 +1525,8 @@ jmp ghostlp    ;
 skplp:
 mov colorindex, -1 ; reset the flag to indicate to drawsprite not to use ghostcolors array in combination with colorindex
 
-; Pellets
 
-checkgen pacmanx pacmany 4 4 pelletcolor ; check if pacman is on top of a pellet
-jne nxt
-mov erasemode, 1                         ; tells drawsprite to overwrite rather than xor
-calldraw pacmanx pacmany 8 8 eraseoffset ; we are in between pacman drawing currently, this will erase the pellet since the pacman isn't drawn yet
-mov erasemode, 0                         ; reset the flag
-inc score
-cmp score, pelletcount                   ; once all pellets are consumed reset the game
-je reset
-nxt:
-
-
-calldraw pacmanx pacmany 8 8 pacaniframe ; finally we draw pacman
-jmp gameloop                             ; end of gameloop
+jmp gameloop ; end of gameloop
 
 
 reset:
